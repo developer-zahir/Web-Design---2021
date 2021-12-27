@@ -1,0 +1,98 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+img {
+    max-width: 100%;
+}
+.full_website {
+    width: 1000px;
+    margin: auto;
+    .main {
+        border: 1px solid #ddd;
+        padding: 40px 20px;
+        margin-top: 100px;
+        border-radius: 3px;
+        a {
+            text-decoration: none;
+        }
+        .row {
+            margin-bottom: 14px;
+        }
+        .logo_section {
+            img {
+                width: 150px;
+            }
+            h3 {
+                font-size: 20px;
+            }
+        }
+        .form-control {
+            &:focus {
+                box-shadow: none;
+            }
+        }
+        .input-group {
+            #email {
+                border-right: none;
+                &:focus + .input-group-text {
+                    border: 1px solid #86b7fe;
+                }
+            }
+            .input-group-text {
+                background: transparent;
+            }
+        }
+        .bi-eye-slash {
+            line-height: 10px;
+        }
+        .password_group i {
+            line-height: 40px;
+            display: inline-block;
+        }
+    }
+    .footer_section {
+        margin-top: 5px;
+        .language_selection {
+            position: relative;
+            &::before {
+                content: "\f107";
+                font-family: "font awesome 5 free";
+                font-weight: 600;
+                width: 17px;
+                height: 17px;
+                line-height: 17px;
+                text-align: center;
+                background: #ddd;
+                right: 283px;
+                top: 3px;
+                position: absolute;
+                color: #696868;
+                border: 1px solid rgba(0, 0, 0, 0.26);
+                pointer-events: none;
+            }
+            select {
+                border: none;
+                outline: none;
+                padding-right: 20px;
+                text-align: center;
+            }
+        }
+        .link {
+            ul {
+                padding: 0;
+                text-align: right;
+                margin: 0;
+                li {
+                    display: inline-block;
+                    padding: 0 5px;
+                    a {
+                        color: #555;
+                        font-weight: 500;
+                        text-decoration: none;
+                        text-transform: capitalize;
+                    }
+                }
+            }
+        }
+    }
+}

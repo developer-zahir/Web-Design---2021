@@ -1,0 +1,61 @@
+ .full_website {
+     width: 1000px;
+     margin: auto;
+     text-align: center;
+     border: 1px solid #ddd;
+ }
+
+ img {
+     max-width: 100%;
+ }
+
+ .header_menu {
+     background: #dfedfa;
+     padding: 20px 0;
+     text-transform: uppercase;
+ }
+
+ .body_section {
+     background: #eaf3fa;
+     padding: 150px 30px;
+     border-top: 3px solid #3498db;
+ }
+
+ .body_section p {
+     margin-top: 20px;
+ }
+
+ .footer_section .footer_top {
+     background: #3498db;
+     padding: 50px 0;
+     color: white;
+ }
+
+ .footer_section .footer_bottom {
+     background: #2980b9;
+     padding: 15px 0;
+     color: white;
+     text-transform: capitalize;
+     border-top: 1px solid #f2f4f580;
+ }
+
+ .footer_section .footer_bottom p {
+     margin: 0;
+ }
+
+ .footer_section .footer_bottom p a {
+     text-decoration: none;
+     color: #bdc3c7;
+ }
+
+
+
+
+
+
+
+
+
+
+
+

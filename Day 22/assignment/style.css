@@ -1,0 +1,158 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  background: #f5f5f5;
+  padding: 20px 0;
+}
+
+.header .col-md-4 a {
+  text-decoration: none;
+  display: block;
+  line-height: 37px;
+  font-size: 27px;
+}
+
+.header .col-md-8 ul {
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+
+.header .col-md-8 ul li {
+  display: inline-block;
+  margin-left: -5px;
+  padding: 10px 20px;
+}
+
+.header .col-md-8 ul li a {
+  display: block;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+/*banner_section*/
+.banner_section {
+  background: url(./img/bg.jpg) black no-repeat;
+  padding: 400px 30px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  z-index: 1;
+}
+
+.banner_section::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  position: absolute;
+  background: rgba(0, 0, 0, 0.432);
+  z-index: -1;
+}
+
+.banner_section .container h1 {
+  text-align: center;
+  color: white;
+}
+
+/*about_section*/
+img {
+  max-width: 100%;
+}
+
+.about_section {
+  padding: 100px 0 60px 0;
+}
+
+.about_section .left .top .left {
+  padding: 5px;
+}
+
+.about_section .left .top .left img {
+  width: 100%;
+  height: 100%;
+}
+
+.about_section .left .top .right {
+  padding-left: 15px;
+}
+
+.about_section .left .top .right li {
+  list-style: none;
+  line-height: 30px;
+  color: #6b6b6b;
+}
+
+.about_section .left .bottom {
+  padding: 20px 60px 0 0;
+  text-align: justify;
+}
+
+.about_section .right p {
+  text-align: justify;
+}
+
+.about_section .right p:last-child {
+  font-size: 22px;
+  color: #525151;
+}
+
+.contact_section {
+  padding: 20px 0;
+}
+
+.contact_section .form-control {
+  margin-bottom: 9px;
+}
+
+.contact_section .form-control:focus {
+  border: 1px solid #64c5f1;
+  box-shadow: none;
+}
+
+.contact_section textarea {
+  height: 160px;
+}
+
+.contact_section button {
+  padding: 7px 40px;
+}
+
+.footer_section {
+  background: #0062d3;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+.footer_section p {
+  padding: 0;
+  margin: 6px 0;
+  font-size: 14px;
+  color: #f5f3f3;
+}
+
+.footer_section p:first-child a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  transition: 0.4s;
+}
+
+.footer_section p:first-child a:hover {
+  color: #ddd;
+}
+
+.footer_section p:last-child a {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  transition: 0.4s;
+}
+
+.footer_section p:last-child a:hover {
+  color: #ddd;
+}

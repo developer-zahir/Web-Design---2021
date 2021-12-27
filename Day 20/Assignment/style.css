@@ -1,0 +1,136 @@
+.full_website {
+  width: 1400px;
+  margin: auto;
+  border: 1px solid rgba(212, 210, 210, 0.596);
+  font-family: 'Roboto';
+}
+
+.full_website .clear::after {
+  content: '';
+  clear: both;
+  display: block;
+}
+
+.full_website .menu ul {
+  display: inline-block;
+}
+
+.full_website .menu ul li {
+  list-style: none;
+  float: left;
+  padding: 13px 35px;
+  background: #dddddd;
+  margin: 10px;
+  border: 1px solid #ddd;
+  transition: .4s;
+}
+
+.full_website .menu ul li:hover {
+  background: #000;
+}
+
+.full_website .menu ul li:hover a {
+  color: #ddd;
+}
+
+.full_website .menu ul li a {
+  color: #000;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-decoration: none;
+  transition: .4s;
+  display: block;
+}
+
+.full_website .banner_section {
+  background: #f6f6f6;
+  padding: 60px 70px;
+  margin: 45px 45px 0 45px;
+}
+
+.full_website .banner_section h1 {
+  color: #a52a2a;
+}
+
+.full_website .body_section {
+  margin: 70px 0;
+}
+
+.full_website .body_section .left {
+  float: left;
+  width: 45%;
+}
+
+.full_website .body_section .left img {
+  width: 100%;
+}
+
+.full_website .body_section .right {
+  float: right;
+  width: 55%;
+  text-align: left;
+}
+
+.full_website .body_section .right h1 {
+  background: #dddddd;
+  padding-left: 130px;
+}
+
+.full_website .body_section .right h6 {
+  color: #a52a2a;
+  font-size: 25px;
+}
+
+.full_website .body_section .right .content {
+  padding-left: 130px;
+}
+
+.full_website .body_section .right .content ul {
+  padding: 0;
+  margin: 0;
+}
+
+.full_website .body_section .right .content strong {
+  font-size: 15px;
+}
+
+.full_website .service_section {
+  text-align: center;
+}
+
+.full_website .service_section h1 {
+  display: inline-block;
+  background: #ddd;
+  padding: 10px 40px;
+  border: 1px solid #000;
+  margin: 20px 0;
+  margin-top: 80px;
+}
+
+.full_website .service_section .service_inner {
+  text-align: center;
+  margin: auto;
+  margin: 50px 0;
+}
+
+.full_website .service_section .service_inner div {
+  width: 30.33%;
+  padding: 30px 20px;
+  float: left;
+  margin-left: 32px;
+  background: #dddddd;
+}
+
+.full_website .service_section .service_inner div h2 {
+  text-transform: capitalize;
+}
+
+.full_website .footer_section {
+  background: #ddd;
+  border-top: 2px solid #000;
+  padding: 10px 0;
+}
+
+.full_website .footer_section p {
+  padding: 0;
+}

@@ -1,0 +1,618 @@
+// X-Large devices (large desktops, less than 1400px)
+@media (max-width: 1399.98px) {
+    .why_people_choose_us .left_inner .image_inner {
+    }
+    .loans_section .left_inner {
+        text-align: center;
+    }
+    .partner_section {
+        padding: 70px 0;
+        border-bottom: 1px solid rgba(156, 154, 154, 0.192);
+    }
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) {
+    .our_clients_say .client_slider .carousel-item {
+        height: 393px !important;
+    }
+    .left_inner.text-md-center.me-5 {
+        margin: 0 !important;
+    }
+    .our_clients_say {
+        padding: 60px 0;
+        .left_inner {
+            text-align: left;
+        }
+    }
+    h1.my-3.aos-init.aos-animate {
+        color: #e83b3e;
+    }
+    .our_clients_say {
+    }
+    .left_inner {
+        img {
+            display: block;
+            margin: auto;
+        }
+    }
+    .right_inner {
+        margin-top: 75px;
+    }
+    .our_company {
+        .order_last {
+            order: 2;
+        }
+        .order_frist {
+            order: 1;
+        }
+        .item {
+            text-align: left;
+        }
+    }
+    .call_to_action .call_to_action_ininer .text h1 {
+        font-size: 2rem;
+        line-height: 45px;
+    }
+    .call_to_action .call_to_action_ininer .inner .icon {
+        text-align: right;
+        padding-left: 50px;
+        border-left: 1px solid rgba(221, 221, 221, 0.493);
+    }
+    .num h2 {
+        font-size: 1.7rem;
+        text-align: right;
+    }
+    .why_people_choose_us {
+        .order_one {
+            order: 1;
+        }
+        .order_two {
+            order: 2;
+        }
+        order: 3;
+    }
+    .why_people_choose_us .left_inner .image_inner .play_btn {
+        position: absolute;
+        bottom: 199px;
+        right: 270px;
+    }
+    .blog_post_section .item_inner .post_content .inner > a h1 {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+    .blog_post_section .item_inner .post_content .inner a {
+        font-size: 0.9rem;
+    }
+    .blog_post_section {
+        padding: 61px 0;
+    }
+    .blog_post_section .title_section {
+        margin-bottom: 63px !important;
+    }
+    .team_member_section {
+        padding: 54px 0;
+        background: #fafbfc;
+    }
+    .team_member_section .title_section {
+        margin-bottom: 59px !important;
+    }
+    nav #main_ul > li > a {
+        font-size: 0.9rem;
+    }
+    nav {
+        #btn_default {
+            font-weight: 500;
+            padding: 11px 11px;
+            font-size: 0.9rem;
+        }
+    }
+    nav .nav_right_div .contact_info div:last-child a {
+        font-size: 0.9rem;
+    }
+    nav .nav_right_div .contact_info div:first-child i {
+        font-size: 29px;
+    }
+    nav .nav_right_div .contact_info div:first-child {
+        margin-left: 3px;
+    }
+    a.navbar-brand img {
+        width: 116px;
+    }
+    nav #main_ul > li {
+        position: relative;
+        top: 6px;
+    }
+    nav .nav_right_div #search_icon label .fa-search {
+        margin-top: 6px;
+    }
+    nav .nav_right_div .contact_info div:last-child {
+        width: 155px;
+    }
+    nav #btn_default {
+        font-weight: 500;
+        padding: 8px 23px;
+        font-size: 0.9rem;
+        margin-top: 6px;
+    }
+    .banner_section {
+        background: url(../img/main-banner2.jpg) no-repeat center center;
+        background-attachment: fixed;
+        height: 90vh;
+        background-position: -710px center;
+    }
+    h1.my-3.aos-init.aos-animate {
+        font-size: 3rem;
+    }
+    .funding .right_iinner h3.aos-init.aos-animate {
+        font-size: 28px !important;
+        line-height: 42px !important;
+    }
+    .about_section {
+        padding: 20px 0;
+    }
+    #its_for_mobile {
+        margin-top: 40px !important;
+        .one {
+            order: 1 !important;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .two {
+            order: 2;
+        }
+    }
+    .contact_us_section main .left_inner {
+        margin-right: 0;
+    }
+    section.business_forward-area.pt-100.pb-70 {
+        display: none;
+    }
+    div.funding_page#bg {
+        display: none;
+    }
+    .about_section {
+        padding: 50px 0 20px 0;
+        background: #f9fafb;
+    }
+    footer .item_two .Quick_link ul li,
+    footer .item_three .Quick_link ul li,
+    footer .item_fore .Quick_link ul li,
+    .location li {
+        list-style: none;
+        padding: 2px 0;
+        font-size: 14px;
+    }
+    footer .location li {
+        margin: 0;
+        a {
+            margin: 0;
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+
+@media (max-width: 991.98px) {
+    nav .nav_right_div {
+        display: none !important;
+    }
+    .partner_section {
+        display: none;
+    }
+    ul#main_ul {
+        li {
+            &:hover ul {
+                opacity: 1;
+                visibility: visible;
+                display: block !important;
+            }
+            ul {
+                display: none !important;
+                opacity: 0;
+                visibility: hidden;
+                position: absolute;
+                transform: translateY(0) !important;
+                li ul {
+                    left: 100%;
+                }
+            }
+        }
+    }
+
+    .call_to_action .call_to_action_ininer .text h1 {
+        font-size: 1.5rem;
+        line-height: 35px;
+    }
+    aside#secondary {
+        margin: 46px 0;
+    }
+    .funding_page .business_forward-area main .col-lg-4:last-child::before {
+        bottom: 70%;
+        z-index: -1;
+    }
+    .discuss_section .right_inner {
+        margin-left: 30px;
+        display: none;
+    }
+    .google_map iframe {
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 !important;
+        height: 48vh;
+    }
+    .num {
+        h2 {
+            font-size: 1.4rem;
+            margin-bottom: 0;
+        }
+    }
+    .loans_section {
+        .right_inner {
+            margin-top: 60px;
+        }
+    }
+    .call_to_action .call_to_action_ininer .inner .icon i {
+        width: 55px;
+        height: 55px;
+        line-height: 70px;
+        font-size: 2rem;
+    }
+    .call_to_action .call_to_action_ininer .inner {
+        overflow: hidden;
+    }
+    .call_to_action .call_to_action_ininer .inner .icon {
+        text-align: left;
+        border-left: 1px solid rgba(221, 221, 221, 0.205);
+    }
+    .our_company {
+        padding: 78px 0;
+    }
+    .our_company .company_image {
+        margin-left: 30px;
+        margin-top: 52px;
+    }
+    .loans_section .tab_btn > button p {
+        margin-bottom: 20px;
+        font-size: 0.8rem;
+    }
+    .loans_section .tab_btn > button > span {
+        width: 70px;
+        height: 70px;
+        line-height: 81px;
+        font-size: 33px;
+    }
+    .loans_section .tab_btn #next_prev_btn button {
+        height: 35px;
+        width: 35px;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        display: inline-block;
+        width: 1.3rem;
+    }
+    .loans_section .tab_btn #next_prev_btn {
+        bottom: -12px;
+    }
+    .loans_section .title_section {
+        padding-bottom: 55px;
+    }
+    .our_company {
+        overflow-x: hidden;
+        .order_frist {
+            order: 1;
+        }
+        .order_last {
+            order: 2;
+        }
+    }
+    .our_clients_say {
+        padding-bottom: 0;
+        .order_frist {
+            order: 1;
+        }
+        .order_last {
+            order: 2;
+        }
+    }
+    .client_content_main_div {
+        height: 100%;
+    }
+    .our_clients_say .client_slider .carousel-item {
+        height: 893px !important;
+        .left_inner {
+            margin-top: 60px;
+        }
+    }
+    .loans_section {
+        padding: 62px 0;
+    }
+    .call_to_action .call_to_action_ininer .inner .icon i {
+        width: 55px;
+        height: 55px;
+        line-height: 70px;
+        font-size: 2rem;
+        position: relative;
+        left: -48px;
+    }
+    .discuss_section {
+        padding: 55px 0;
+    }
+    .left_inner.w-75 {
+        width: 100% !important;
+    }
+    .discuss_section .left_inner form h4 {
+        margin-bottom: 5px;
+    }
+    .discuss_section .title {
+        width: 75% !important;
+    }
+    .why_people_choose_us {
+        padding-bottom: 60px !important;
+    }
+
+    .funding .right_iinner h3.aos-init.aos-animate {
+        font-size: 26px !important;
+        line-height: 39px !important;
+    }
+    .discuss_section .title {
+        width: 100% !important;
+    }
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 768px) {
+    .contact_us_section main .right_inner {
+        margin-left: 0;
+    }
+    .banner_section {
+        background-attachment: scroll;
+    }
+    html {
+        font-size: 14px;
+    }
+    .discuss_section .title h1 {
+        font-size: 25px;
+        margin: 10px 0;
+    }
+    .call_to_action .call_to_action_ininer {
+        display: none;
+    }
+    .our_company {
+        padding-top: 0;
+    }
+    .loans_section .tab_btn > button > span {
+        width: 60px;
+        height: 60px;
+        line-height: 71px;
+        font-size: 28px;
+    }
+    .item_fore {
+        display: none;
+    }
+    .banner_section {
+        height: 70vh;
+        background-position: -1000px center;
+        overflow: hidden;
+    }
+    h1.my-3.aos-init.aos-animate {
+        color: #fff;
+    }
+    p.aos-init.aos-animate {
+        color: #ddd;
+    }
+    .banner_section .banner_social_icon .social_main ul li a {
+        color: red;
+    }
+    .banner_section .banner_social_icon .social_main p {
+        color: red;
+    }
+    .banner_section .banner_social_icon .social_main .divider {
+        background: red;
+    }
+ 
+    .team_member_section {
+        .item_inner {
+            margin: 5px 68px;
+        }
+    }
+    .funding_page .business_forward-area main .business_forward-item {
+        border: 1px solid #ddd;
+        transition: 0.4s;
+        padding: 30px;
+        &:hover {
+            border: 1px solid rgb(235, 62, 62);
+            .icon i {
+                color: #fff;
+                background: rgb(235, 62, 62);
+            }
+        }
+    }
+    .funding_page .business_forward-area main .business_forward-item .icon i {
+        box-shadow: none;
+    }
+    .funding_page .business_forward-area main .business_forward-item h3 {
+        color: #666;
+    }
+    .funding_page .business_forward-area main .col-lg-4:first-child::after {
+        display: none;
+    }
+    .funding_page .business_forward-area main .col-lg-4:last-child::before {
+        display: none;
+    }
+    .discuss_section .title {
+        h2 {
+            line-height: 32px !important;
+        }
+    }
+    .discuss_section {
+        padding: 55px 0;
+    }
+    .left_inner.w-75 {
+        width: 100% !important;
+    }
+    .discuss_section .left_inner form h4 {
+        margin-bottom: 5px;
+    }
+    .funding_page {
+        padding-bottom: 41px;
+    }
+    p.aos-init.aos-animate {
+        color: #666;
+    }
+    .discuss_section .title {
+        width: 100% !important;
+    }
+    .about_section {
+        overflow-x: hidden;
+    }
+    .why_people_choose_us .left_inner .image_inner .play_btn {
+        position: absolute;
+        bottom: 189px;
+        right: 170px;
+    }
+    .contact_us_section {
+        padding: 80px 0 30px 0;
+    }
+    .banner_section{
+        .container{
+            width: 100% !important;
+        }
+    }
+    .banner_section .banner_content {
+        height: 85vh;
+        width: 100% !important;
+        margin: 0 !important;
+
+    }
+    p.aos-init.aos-animate {
+        color: #ddd;
+    }
+    .banner_section{
+        p.aos-init.aos-animate{
+            color: rgb(255, 255, 255);
+           } 
+    }
+    .about_section{
+       p.aos-init.aos-animate{
+        color: #333;
+       } 
+    }
+    .why_people_choose_us{
+        p.aos-init.aos-animate {
+            color: #444;
+        }
+    }
+}
+.blog_page_design .single-blog {
+    margin: 30px 0 !important;
+}
+// X-Small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px) {
+     .loans_section .tab_btn > button > span {
+        width: 47px;
+        height: 47px;
+        line-height: 54px;
+        font-size: 23px;
+    }
+    .loans_section .tab_btn > button > p{
+        display: none;
+    }
+    .loans_section .tab_btn > button{
+          height: 100px;
+    }
+        
+    footer {
+        .col-lg-3.col-md-4.col-sm-6 {
+            width: 50%;
+            float: left;
+            margin-top: 40px;
+        }
+    }
+    .about_section {
+        .right_iinner {
+            margin-top: 40px;
+        }
+    }
+    .why_people_choose_us main .item {
+        margin: 16px 47px;
+    }
+    .why_people_choose_us main .item::before {
+        top: -193px;
+        left: 40px;
+        width: 80%;
+    }
+    .banner_section {
+        background-position: -1230px -41px;
+        background-attachment: scroll;
+        height: 57vh;
+        overflow: hidden;
+    }
+    .about_section .left_inner .about_popup_image {
+        width: 163px;
+        height: 163px;
+    }
+    .about_section .left_inner .about_popup_image span {
+        font-size: 11px;
+    }
+    .about_section .left_inner .about_popup_image h1 {
+        font-size: 3rem;
+    }
+    .why_people_choose_us .left_inner .image_inner .play_btn {
+        position: absolute;
+        bottom: 189px;
+        right: 170px;
+    }
+    .content_div {
+        margin-bottom: 218px;
+    }h1.my-3.aos-init.aos-animate {
+        font-size: 23px;
+    }
+    .banner_section{
+        p.aos-init.aos-animate{
+            color: rgb(255, 255, 255);
+           } 
+    }
+    .about_section{
+       p.aos-init.aos-animate{
+        color: #333;
+       } 
+    }
+    .why_people_choose_us{
+        p.aos-init.aos-animate {
+            color: #444;
+        }
+    }
+}
+//media query
+@media all and (max-width: 546px) {
+    .about_section .left_inner .about_popup_image {
+        display: none !important;
+    }
+    .why_people_choose_us .left_inner .image_inner .play_btn {
+        display: none !important;
+    }
+}
+//media query
+@media all and (max-width: 361px) {
+    .team_member_section {
+        .item_inner {
+            margin: 24px !important;
+        }
+    }
+    .about_section .left_inner .about_popup_image {
+        display: none !important;
+    }
+    .why_people_choose_us .left_inner .image_inner .play_btn {
+        display: none !important;
+    }
+    .image_iinner {
+        position: relative;
+        width: 100%;
+        height: 250px;
+        overflow: hidden;
+    }
+    .our_clients_say .client_slider .carousel-item {
+        height: 694px !important;
+    }
+}

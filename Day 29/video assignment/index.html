@@ -1,0 +1,830 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <!-- google font -->
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet" />
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+        <!-- Bootstrap Icon -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" />
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous" />
+
+        <title>Hello, world!</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <section id="header_section">
+            <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner position-relative">
+                    <nav class="navbar navbar-expand-lg position-absolute">
+                        <div class="container">
+                            <a class="navbar-brand" href="#"><img src="./img/logo.png" alt="" /></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">about us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="#">rtl tested</a>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Pages </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">Services</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> blogs </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">blog full width</a></li>
+                                            <li><a class="dropdown-item" href="#">blog left sidrbar</a></li>
+                                            <li><a class="dropdown-item" href="#">blog right sidrbar</a></li>
+                                            <li><a class="dropdown-item" href="#">blog no sidrbar</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> contact </a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                            <li><a class="dropdown-item" href="#">contact layout 1</a></li>
+                                            <li><a class="dropdown-item" href="#">contact layout 2</a></li>
+                                            <li><a class="dropdown-item" href="#">contact layout 3</a></li>
+                                            <li><a class="dropdown-item" href="#">contact layout 4</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    <div class="carousel-item active">
+                        <img src="./img/slider1.jpg" class="d-block w-100" alt="..." />
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="slider_caption">
+                                <div class="h1">Trusted Factory Solution</div>
+                                <a href="#">Discover more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/slider2.jpg" class="d-block w-100" alt="..." />
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="slider_caption">
+                                <div class="h1">Trusted Factory Solution</div>
+                                <a href="#">Discover more</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="./img/slider3.jpg" class="d-block w-100" alt="..." />
+                        <div class="carousel-caption d-none d-md-block">
+                            <div class="slider_caption">
+                                <div class="h1">Trusted Factory Solution</div>
+                                <a href="#">Discover more</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+        <!-- -------------------------------------about section -------------------------------------- -->
+        <!-- -------------------------------------about section -------------------------------------- -->
+        <section>
+            <div class="faltu_section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="left_inner">
+                                <div class="image_inner">
+                                    <img src="./img/welder-image.jpg" alt="" />
+                                    <div class="image_two">
+                                        <div class="obb">
+                                            <img class="" src="./img/welder-small-image.jpg" alt="" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="right_inner">
+                                <div class="content">
+                                    <h3>Concerted Efforts to</h3>
+                                    <h1>Build Better.</h1>
+                                    <h6>Dream big with get more inspiring solutions from here</h6>
+                                    <p>
+                                        Vestibulum leo justo, dignissim eu pretium quis, ornareelit. Mauris cursuis elementum metus, vitae commodo elit rhd. Vivamus sollicitudin imperdiet felis accumsan varius. Pellentesque habitant morbi tristique
+                                        senectus etiy netus et malesu fames ac turpis egestas. Ut arcu velit, aliquet in bibendum id, consectetur vitae felis.
+                                    </p>
+                                    <p>
+                                        Vestibulum leo justo, dignissim eu pretium quis, ornareelit. Mauris cursuis elementum metus, vitae commodo elit rhd. Vestibulum leo justo, dignissim eu pretium quis, ornareelit. Mauris cursuis elementum metus,
+                                        vitae commodo elit rhd.
+                                    </p>
+                                    <a href="#">read more</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Our Features -->
+        <section>
+            <div class="our_features_section">
+                <div class="container">
+                    <div class="row">
+                        <div class="title text-center">
+                            <div class="h1">Our Features</div>
+                        </div>
+                    </div>
+                    <main>
+                        <div class="row g-0">
+                            <div class="col-lg-3">
+                                <div class="card_inner">
+                                    <div class="card_inner_two">
+                                        <div class="image_inner">
+                                            <img src="./img/services-1.png" alt="" />
+                                        </div>
+                                        <div class="box_content">
+                                            <h4>Automotive Parts & System</h4>
+                                            <p>Pellentesque habitant morbi tristique senectus etiy netus et malesu fame turpis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card_inner">
+                                    <div class="card_inner_two">
+                                        <div class="image_inner">
+                                            <img src="./img/services-2.png" alt="" />
+                                        </div>
+                                        <div class="box_content">
+                                            <h4>Construction & Engineering</h4>
+                                            <p>Pellentesque habitant morbi tristique senectus etiy netus et malesu fame turpis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card_inner">
+                                    <div class="card_inner_two">
+                                        <div class="image_inner">
+                                            <img src="./img/services-3.png" alt="" />
+                                        </div>
+                                        <div class="box_content">
+                                            <h4>Energy Distribution & Grids</h4>
+                                            <p>Pellentesque habitant morbi tristique senectus etiy netus et malesu fame turpis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="card_inner">
+                                    <div class="card_inner_two">
+                                        <div class="image_inner">
+                                            <img src="./img/services-4.png" alt="" />
+                                        </div>
+                                        <div class="box_content">
+                                            <h4>Automotive & Power Supply</h4>
+                                            <p>Pellentesque habitant morbi tristique senectus etiy netus et malesu fame turpis.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="what_we_do">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="left_inner">
+                                <h4>What we do</h4>
+                                <h1>Why choose us</h1>
+                                <p>
+                                    Fusce sit amet diam sit amet mi placerat molestie sed vitae urna. Nam interdum id lorem non facilisis. Sed vel suscipit sem. Suspendisse quis erat in felis lobortis fermentum at quis sem. Utvarius sapien sit ametiy
+                                    magna mattis, non feugiat erat tincidunt.
+                                </p>
+                                <ul>
+                                    <li>We are profesasional.</li>
+                                    <li>We provedie best services for you.</li>
+                                    <li>We Are trested and friendly provider.</li>
+                                    <li>We Are trested and friendly provider.</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="right_inner">
+                                <div class="image_inner">
+                                    <img id="video_image" src="./img/video-bg-img.jpg" alt="image" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="Served">
+                <div class="container">
+                    <div class="row">
+                        <div class="title">
+                            <h1>Industry Served</h1>
+                        </div>
+                    </div>
+                    <main class="clearfix">
+                        <div class="box">
+                            <div class="box_inner">
+                                <img src="./img/served1.png" alt="image" />
+                                <h6>petroleum and gas</h6>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="box_inner">
+                                <img src="./img/served2.png" alt="image" />
+                                <h6>inidustrial construction</h6>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="box_inner">
+                                <img src="./img/served3.png" alt="image" />
+                                <h6>chemical research</h6>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="box_inner">
+                                <img src="./img/served4.png" alt="image" />
+                                <h6>mechanical engineering</h6>
+                            </div>
+                        </div>
+                        <div class="box">
+                            <div class="box_inner">
+                                <img src="./img/served5.png" alt="image" />
+                                <h6>power enerigies</h6>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="our_team">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="left_inner">
+                                <h1>Our Engineers</h1>
+                                <p>
+                                    Fusce sit amet diam sit amet mi placerat molestie sed vitae. Nam interdume id lorem non facilisis. Sed vel suscipit sem. Suspendisse quis e felis lobortse fermentum at quis sem. Ut varius sapien sit amet magna
+                                    mattis non feugiat erat tincidunt. Donec egestas porttitor rutrum.
+                                </p>
+                                <a href="#">view all member</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div id="team_item">
+                                        <div class="image_inner">
+                                            <img src="./img/team-member-1.jpg" alt="" />
+                                            <div class="hover_content">
+                                                <h5>alexandre doe</h5>
+                                                <span>Engineer</span>
+                                                <div class="social_icons">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#" title="linkedin" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" title="twitter" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" title="facebook" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" title="tumblr" target="_blank"><i class="fab fa-tumblr fa-lg"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" title="google-plus" target="_blank"><i class="fab fa-google-plus fa-lg"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div id="team_item">
+                                        <div class="image_inner">
+                                            <img src="./img/team-member-2.jpg" alt="" />
+                                            <div class="hover_content">
+                                                <h5>alex</h5>
+                                                <span>CEO</span>
+                                                <div class="social_icons">
+                                                    <ul>
+                                                        <li>
+                                                            <a href="#" title="linkedin" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" title="twitter" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" title="facebook" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" title="tumblr" target="_blank"><i class="fab fa-tumblr fa-lg"></i></a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" title="google-plus" target="_blank"><i class="fab fa-google-plus fa-lg"></i></a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <main class="my-4">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div id="team_item">
+                                    <div class="image_inner">
+                                        <img src="./img/team-member-3.jpg" alt="" />
+                                        <div class="hover_content">
+                                            <h5>Mark Doe</h5>
+                                            <span>Mark Doe</span>
+                                            <div class="social_icons">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" title="linkedin" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="twitter" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="facebook" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="tumblr" target="_blank"><i class="fab fa-tumblr fa-lg"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="google-plus" target="_blank"><i class="fab fa-google-plus fa-lg"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div id="team_item">
+                                    <div class="image_inner">
+                                        <img src="./img/team-member-1.jpg" alt="" />
+                                        <div class="hover_content">
+                                            <h5>Mark</h5>
+                                            <span>Mark</span>
+                                            <div class="social_icons">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" title="linkedin" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="twitter" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="facebook" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="tumblr" target="_blank"><i class="fab fa-tumblr fa-lg"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="google-plus" target="_blank"><i class="fab fa-google-plus fa-lg"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div id="team_item">
+                                    <div class="image_inner">
+                                        <img src="./img/team-member-5.jpg" alt="" />
+                                        <div class="hover_content">
+                                            <h5>Emma Doe</h5>
+                                            <span>HR</span>
+                                            <div class="social_icons">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" title="linkedin" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="twitter" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="facebook" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="tumblr" target="_blank"><i class="fab fa-tumblr fa-lg"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="google-plus" target="_blank"><i class="fab fa-google-plus fa-lg"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div id="team_item">
+                                    <div class="image_inner">
+                                        <img src="./img/team-member-6.jpg" alt="" />
+                                        <div class="hover_content">
+                                            <h5>Jennifer Doe</h5>
+                                            <span>HR</span>
+                                            <div class="social_icons">
+                                                <ul>
+                                                    <li>
+                                                        <a href="#" title="linkedin" target="_blank"><i class="fab fa-linkedin fa-lg"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="twitter" target="_blank"><i class="fab fa-twitter fa-lg"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="facebook" target="_blank"><i class="fab fa-facebook fa-lg"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="tumblr" target="_blank"><i class="fab fa-tumblr fa-lg"></i></a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" title="google-plus" target="_blank"><i class="fab fa-google-plus fa-lg"></i></a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </section>
+        <!-- happy Clients -->
+        <section>
+            <div class="our_happy_clients_section">
+                <div class="container">
+                    <main>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="left_inner">
+                                    <div class="div_for_bg">
+                                        <div id="carouselExampleInterval" class="carousel slide carousel-dark" data-bs-touch="true">
+                                            <div class="carousel-indicators">
+                                                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 0"></button>
+                                                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 1"></button>
+                                                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 2"></button>
+                                                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="3" aria-label="Slide 3"></button>
+                                                <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="4" aria-label="Slide 4"></button>
+                                            </div>
+
+                                            <div class="carousel-inner">
+                                                <div class="carousel-item active" data-bs-interval="10000">
+                                                    <div class="item_box">
+                                                        <div class="imagge_box">
+                                                            <img src="./img/person1.jpg" alt="" />
+                                                        </div>
+                                                        <div class="contant_inner">
+                                                            <h4>john doe</h4>
+                                                            <span>happy customer</span>
+                                                            <p>If you need any industrial solution we are available for you. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="10000">
+                                                    <div class="item_box">
+                                                        <div class="imagge_box">
+                                                            <img src="./img/person3.jpg" alt="" />
+                                                        </div>
+                                                        <div class="contant_inner">
+                                                            <h4>john doe</h4>
+                                                            <span>happy customer</span>
+                                                            <p>If you need any industrial solution we are available for you. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="10000">
+                                                    <div class="item_box">
+                                                        <div class="imagge_box">
+                                                            <img src="./img/person2.jpg" alt="" />
+                                                        </div>
+                                                        <div class="contant_inner">
+                                                            <h4>john doe</h4>
+                                                            <span>happy customer</span>
+                                                            <p>If you need any industrial solution we are available for you. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="10000">
+                                                    <div class="item_box">
+                                                        <div class="imagge_box">
+                                                            <img src="./img/person4.jpg" alt="" />
+                                                        </div>
+                                                        <div class="contant_inner">
+                                                            <h4>john doe</h4>
+                                                            <span>happy customer</span>
+                                                            <p>If you need any industrial solution we are available for you. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="carousel-item" data-bs-interval="10000">
+                                                    <div class="item_box">
+                                                        <div class="imagge_box">
+                                                            <img src="./img/person5.jpg" alt="" />
+                                                        </div>
+                                                        <div class="contant_inner">
+                                                            <h4>john doe</h4>
+                                                            <span>happy customer</span>
+                                                            <p>If you need any industrial solution we are available for you. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Previous</span>
+                                            </button>
+                                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                                <span class="visually-hidden">Next</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="right_inner">
+                                    <h4>Our Happy Clients</h4>
+                                    <h1>Say’s About Us</h1>
+                                    <p>If you need any industrial solution we are available for you. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed deiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    <a href="#">contact us</a>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </section>
+        <section class="qa_section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="left_inner">
+                            <div class="div_top">
+                                <h4>Our FAQs</h4>
+                                <h1>Frequently Asked <br> Questions</h1>
+                            </div>
+                            <div class="div_bottom">
+                                <div class="accordion" id="accordionExample">
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingOne">
+                                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">metus venenatis purus vehicula?</button>
+                                        </h2>
+                                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Vivamus mattis commodo faucibus. Etiam semper, qua consequt lacinia, enim lectus sceleris ante, vitae cursus odio eros vel enim. Nam porta risus id dolor vestibulum.
+                                                    Vivamus mattis commodo faucibus. Etiam semper, qua consequt lacinia, enim lectus sceleris ante, vitae cursus odio eros vel enim. Nam porta risus id dolor vestibulum.
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingTwo">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                Suspendisse quis erat in felis lobortis?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Vivamus mattis commodo faucibus. Etiam semper, qua consequt lacinia, enim lectus sceleris ante, vitae cursus odio eros vel enim. Nam porta risus id dolor vestibulum.
+                                                    Vivamus mattis commodo faucibus. Etiam semper, qua consequt lacinia, enim lectus sceleris ante, vitae cursus odio eros vel enim. Nam porta risus id dolor vestibulum.
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingThree">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                                Quisque imperdiet nibh quis mi cursus?
+                                            </button>
+                                        </h2>
+                                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Vivamus mattis commodo faucibus. Etiam semper, qua consequt lacinia, enim lectus sceleris ante, vitae cursus odio eros vel enim. Nam porta risus id dolor vestibulum.
+                                                    Vivamus mattis commodo faucibus. Etiam semper, qua consequt lacinia, enim lectus sceleris ante, vitae cursus odio eros vel enim. Nam porta risus id dolor vestibulum.
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingfore">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefore" aria-expanded="false" aria-controls="collapsefore">
+                                                Quisque imperdiet nibh quis mi cursus?
+                                            </button>
+                                        </h2>
+                                        <div id="collapsefore" class="accordion-collapse collapse" aria-labelledby="headingfore" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Vivamus mattis commodo faucibus. Etiam semper, qua consequt lacinia, enim lectus sceleris ante, vitae cursus odio eros vel enim. Nam porta risus id dolor vestibulum.
+                                                    Vivamus mattis commodo faucibus. Etiam semper, qua consequt lacinia, enim lectus sceleris ante, vitae cursus odio eros vel enim. Nam porta risus id dolor vestibulum.
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header" id="headingfive">
+                                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                                                Vivamus mattis commodo faucibus.
+                                            </button>
+                                        </h2>
+                                        <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+                                            <div class="accordion-body">
+                                                <p>
+                                                    Vivamus mattis commodo faucibus. Etiam semper, qua consequt lacinia, enim lectus sceleris ante, vitae cursus odio eros vel enim. Nam porta risus id dolor vestibulum.
+                                                    Vivamus mattis commodo faucibus. Etiam semper, qua consequt lacinia, enim lectus sceleris ante, vitae cursus odio eros vel enim. Nam porta risus id dolor vestibulum.
+
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                         
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ///// -->
+                    <div class="col-lg-6">
+                        <div class="right_inner">
+                            <div id="item">
+                                <div class="image_inner">
+                                    <img src="./img/factory-image.png" alt="">
+                                </div>
+                                <div class="item_content">
+                                    <h1>We Have 20+ Years of</h1>
+                                    <h5>Experiences for Give You Better Results</h5>
+                                </div>
+                            </div>
+                            <div id="item">
+                                <div class="image_inner">
+                                    <i class="fas fa-headset"></i>
+                                </div>
+                                <div class="item_content">
+                                    <h1>213 546 6654f</h1>
+                                    <h5>Call us & Get a Free Estimate</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- footer part ------------------------------ -->
+        <!-- footer part ------------------------------ -->
+        <!-- footer part ------------------------------ -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3">
+                        <div class="item_inner">
+                            <div class="item_title">
+                                <h3>factory</h3>
+                                <div class="hr"></div>
+                            </div>
+                            <div class="item_content">
+                                <p>Street 238,52 tempor Donec ultricies mattis nulla, suscipit risus tristique ut.</p>
+                                <div class="contact">
+                                    <p><span>phone:</span> +1 500 000 0000</p>
+                                    <p><span>E-mail:</span>demo@lorem.com</p>
+                                    <p><span>Website:</span>http://demo.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="item_inner">
+                            <div class="item_title">
+                                <h3>OUR SERVCIES</h3>
+                                <div class="hr"></div>
+                            </div>
+                            <div class="item_content">
+                                <ul>
+                                    <li><a href="#">home</a></li>
+                                    <li><a href="#">about us</a></li>
+                                    <li><a href="#">blog</a></li>
+                                    <li><a href="#">services</a></li>
+                                    <li><a href="#">contaict</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="item_inner">
+                            <div class="item_title">
+                                <h3>QUICK LINKS</h3>
+                                <div class="hr"></div>
+                            </div>
+                            <div class="item_content">
+                                <ul>
+                                    <li><a href="#">home</a></li>
+                                    <li><a href="#">about us</a></li>
+                                    <li><a href="#">blog</a></li>
+                                    <li><a href="#">services</a></li>
+                                    <li><a href="#">contaict</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="item_inner">
+                            <div class="item_title">
+                                <h3>NEWSLETTER</h3>
+                                <div class="hr"></div>
+                            </div>
+                            <div class="item_content">
+                                <div class="input-group">
+                                    <input type="email" name="" id="" class="form-control" placeholder="Enter your email" />
+                                    <a class="input-group-text text-decoration-none bg-dark text-light" href="#"><i class="fas fa-paper-plane"></i></a>
+                                </div>
+                                <div class="icon">
+                                    <ul>
+                                        <li>
+                                            <a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                                        </li>
+                                        <li>
+                                            <a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="copy_right">
+                <p>© Copyright 2021 All Rights Reserved by <a href="#">Md Zahirul Islam</a></p>
+            </div>
+        </footer>
+        <!-- Option 1: Bootstrap Bundle with Popper -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+    </body>
+</html>

@@ -1,0 +1,12 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.navbar-nav{
+    a{
+        color: #ddd !important;
+        transition: .4s;
+        &:hover{
+            color: white !important;
+        }
+    }
+}

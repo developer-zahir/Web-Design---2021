@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.full_website {
+    width: 1300px;
+    margin: auto;
+}
+
+.full_website .header {
+    padding: 100px 0;
+    background: #34495e;
+}
+
+.full_website .header ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.full_website .header li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.full_website .header li a {
+    display: block;
+    color: white;
+    background: #e67e22;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    transition: .4s;
+    border: 2px solid #e67d2200;
+    font-weight: 500;
+}
+
+.full_website .header li div p {
+    width: 4px;
+    height: 35px;
+    background: white;
+    display: inline-block;
+}
+
+.full_website .header li div span.star {
+    color: #e67d25;
+    font-size: 28px;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 8px;
+    left: -11px;
+}
+
+
+
+
+
+/*header  hover part */
+.full_website .header li:hover a {
+    background: white;
+    color: #e67e22;
+    border: 2px solid #e67e22;
+}
+
+.full_website .header li:hover span.star {
+    color: rgb(0, 255, 76);
+    text-shadow: 1px 1px 20px rgb(0, 255, 76);
+}
+
+/* body_section start */
+.body_section {
+    background: #9b59b6;
+    padding:90px 0 20px 0;
+    text-align: center;
+}
+.body_section div{
+    display: inline-block;
+}
+.body_section .middle_div{
+    width: 150px;
+    height: 150px;
+    background: #34495e;
+    border-radius: 50%;  border: 5px solid #e67d25;
+}
+.body_section .same_design {
+    width: 120px;
+    height: 120px;
+    background: #34495e;
+    border-radius: 50%;
+    border: 5px dotted #e67d25;
+}
+.body_section .extra_position{
+    position: relative;
+    bottom: 88px;
+    margin: 0 20px;
+}
+/* footer_section */
+.footer_section {
+    background: #2c3e50;
+    padding: 30px 0;
+    text-align: center;
+}
+.footer_section p{
+    color: white;
+    margin: 0;
+}
+.footer_section p a{
+color: white;
+text-decoration: none;
+transition: .4s;
+}
+.footer_section p a:hover{
+    color: #1f64a8;
+}

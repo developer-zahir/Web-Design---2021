@@ -1,0 +1,263 @@
+ body {
+     margin: 10px 50px;
+ }
+
+ /* hover --------- */
+ .menu_three:hover,
+ .menu_two:hover,
+ .menu_one:hover {
+     background: #2d3436;
+     box-shadow: 2px 2px 30px rgba(45, 45, 45, 0.73);
+     cursor: pointer;
+     border: 2px solid #00ff40;
+ }
+
+ .menu_three:hover.menu_three h1,
+ .menu_two:hover.menu_two h1,
+ .menu_one:hover.menu_one h1 {
+     background: #d63031;
+ }
+
+ .menu_one {
+     margin: 20px;
+     width: 45%;
+     background: #7f8c8d;
+     padding: 20px;
+     border: 2px solid #db3434;
+     display: inline-block;
+     transition: .4s;
+ }
+
+ .menu_one h1 {
+     text-align: center;
+     text-transform: capitalize;
+     background: #2c3e50;
+     color: white;
+     margin-bottom: 30px;
+     padding: 5px;
+ }
+
+ .menu_one ul li {
+     text-transform: capitalize;
+ }
+
+ .menu_one ul li a {
+     text-decoration: none;
+     font-size: 20px;
+
+ }
+
+ .menu_one ul li:nth-child(even) a {
+     color: red;
+ }
+
+ /* odd selector */
+ .menu_two {
+     margin: 20px;
+     width: 45%;
+     background: #7f8c8d;
+     padding: 20px;
+     border: 2px solid #db3434;
+     display: inline-block;
+     transition: .4s;
+ }
+
+ .menu_two h1 {
+     text-align: center;
+     text-transform: capitalize;
+     background: #2c3e50;
+     color: white;
+     margin-bottom: 30px;
+     padding: 5px;
+ }
+
+ .menu_two ul li {
+     text-transform: capitalize;
+ }
+
+ .menu_two ul li a {
+     text-decoration: none;
+     font-size: 20px;
+
+ }
+
+ .menu_two ul li:nth-child(odd) a {
+     color: red;
+ }
+
+ /* child selector */
+ .menu_three {
+     margin: 20px;
+     width: 45%;
+     background: #7f8c8d;
+     padding: 20px;
+     border: 2px solid #db3434;
+     display: inline-block;
+     transition: .4s;
+ }
+
+ .menu_three h1 {
+     text-align: center;
+     text-transform: capitalize;
+     background: #2c3e50;
+     color: white;
+     margin-bottom: 30px;
+     padding: 5px;
+ }
+
+ .menu_three ul li {
+     text-transform: capitalize;
+ }
+
+ .menu_three ul li a {
+     text-decoration: none;
+     font-size: 20px;
+
+ }
+
+ .menu_three ul li:nth-child(1) a {
+     color: red;
+ }
+
+ .menu_three ul li:nth-child(2) a {
+     color: rgb(0, 255, 76);
+ }
+
+ .menu_three ul li:nth-child(3) a {
+     color: rgb(255, 0, 242);
+ }
+
+ .menu_three ul li:nth-child(4) a {
+     color: rgb(255, 251, 0);
+ }
+
+ .menu_three ul li:nth-child(5) a {
+     color: rgb(0, 255, 140);
+ }
+
+ .menu_three ul li:nth-child(6) a {
+     color: #3498db;
+ }
+
+ .menu_three ul li:nth-child(7) a {
+     color: #c0392b;
+ }
+
+ .menu_three ul li:nth-child(8) a {
+     color: #26de81;
+ }
+
+ .menu_three ul li:nth-child(9) a {
+     color: #e84393;
+ }
+
+ .menu_three ul li:nth-child(11) a {
+     color: #07ff30;
+ }
+
+ .menu_three ul li:nth-child(13) a {
+     color: #ff07ff;
+ }
+
+ /* -------------- */
+ .menu_fore {
+     margin: 20px;
+     width: 45%;
+     background: #7f8c8d;
+     padding: 20px;
+     border: 2px solid #db3434;
+     display: inline-block;
+     transition: .4s;
+ }
+
+ #head_section {
+     background: #34495e;
+     text-align: center;
+     padding: 20px 0;
+     transition: .4s;
+ }
+
+ #head_section:hover {
+     background: #74b9ff;
+     cursor: pointer;
+ }
+
+ #head_section h1 {
+     color: #d35400;
+     font-weight: bold;
+
+ }
+
+ #head_section h4 {
+     color: #3498db;
+ }
+
+ #head_section p {
+     color: white;
+ }
+
+ .body_section {
+     background: #9b59b6;
+     text-align: center;
+     padding: 31px 0;
+     transition: .4s;
+ }
+
+ .body_section:hover {
+     background: #2d3436;
+     cursor: pointer;
+ }
+
+ .body_section p {
+     color: white;
+     margin-bottom: 30px;
+ }
+
+ .body_section h5 {
+     text-transform: capitalize;
+     font-weight: bold;
+ }
+
+ .body_section h5:first-child {
+     color: #198754;
+ }
+
+ .body_section h5:nth-child(2) {
+     color: #d8b429;
+ }
+
+ .body_section h5:last-child {
+     color: #9898a7;
+ }
+
+ #footer_section {
+     background: #34495e;
+     text-align: center;
+     color: white;
+     padding: 20px 0;
+ }
+
+ #footer_section p {
+     margin: 0;
+ }
+
+ #footer_section a {
+     text-decoration: none;
+     color: white;
+     transition: .4s;
+ }
+
+ #footer_section a:hover {
+     color: tomato;
+     cursor: pointer;
+ }
+
+ #footer_section:hover {
+     background: #000;
+     cursor: pointer;
+ }
+
+ .menu_one:hover .menu_one h1 {
+     background: red;
+     color: rgb(255, 255, 255);
+ }

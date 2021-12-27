@@ -1,0 +1,58 @@
+img {
+    width: 950px;
+}
+
+.main_div {
+    width: 950px;
+    height: 900px;
+    margin: auto;
+    background: #dddddd;
+}
+
+.head_section {
+    text-align: center;
+}
+
+.heading_1 {
+    text-transform: capitalize;
+    color: blue;
+    font-size:48px;
+    text-shadow: 2px 1px #ffbdbd;
+}
+
+.heading_2 {
+    text-transform: uppercase;
+    color: #fff;
+    background: #eec16e;
+    font-size: 38px;
+    letter-spacing: 4px;
+}
+
+.paragraph_title {
+    color: #2878c9;
+    font-size: 24px;
+    text-decoration: underline;
+    word-spacing:10px;
+}
+
+.paragraph {
+    font-size: 18px;
+    text-align: justify;
+    line-height: 28px;
+}
+
+.footer_section {
+    text-align: right;
+    margin-right: 28px;
+}
+.footer_section h2{
+    margin: 0;
+}
+
+.footer_section p {
+    font-size: 25px;
+    text-transform: capitalize;
+    color: rgb(238, 193, 110);
+    text-decoration: overline;
+    margin-right: 17px;
+}

@@ -1,0 +1,77 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.section {
+    width: 1200px;
+    height: 500px;
+    border: 1px solid red;
+    margin:40px auto;
+    padding: 20px;
+}
+.item{
+    &:nth-child(odd){
+        background:#0984e3;
+        color: white;
+        padding: 10px;
+    }
+    &:nth-child(even){
+        background:#fd79a8;
+        color: white;
+        padding: 10px;
+    }
+}
+/*============== (~ section one ~) =================*/
+.one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.two{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.three{
+   display: flex;
+   flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.fore{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: flex-start;
+   > div{
+        flex-grow: 1;
+    }
+}
+.five{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    > div{
+        flex-grow: 1;
+        &:nth-child(3){
+            align-self: flex-end;
+        }
+        &:nth-child(4){
+            align-self:center;
+        }
+    }
+}
+.six{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: stretch;
+}

@@ -1,0 +1,899 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[ Assignment of class 14 (day 18) ] </title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <!-- Font Awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <!-- Bootstrap cdn link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!--- Bootstrap icon --->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="user-select-none">
+    <nav class="navbar shadow fixed-top navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand text-start" href="#"><img src="./image/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="mobile_menu"><i class="bi bi-grid-3x3-gap"></i></span>
+            </button>
+            <div class="collapse header_bottum  navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav  ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <div class="hover_effect"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">about</a>
+                        <div class="hover_effect"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">service</a>
+                        <div class="hover_effect"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">course</a>
+                        <div class="hover_effect"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">bloge</a>
+                        <div class="hover_effect"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">contact</a>
+                        <div class="hover_effect"></div>
+                    </li>
+
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Link
+                        </a>
+                        <div class="hover_effect"></div>
+                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="hero_btn">
+                    <a href="#">get a qupte</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="hero_section">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- carousel-item 1 -->
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <div class="main">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="content_wrap">
+                                        <h4>general contracting</h4>
+                                        <h1>Build everythinh <br> you needs</h1>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, asperiores
+                                            suscipit rem soluta recusandae deleniti omnis? Quos voluptatibus dicta odit.
+                                        </p>
+                                        <div class="btn-group-lg">
+                                            <a class=" btn btn-primary" href="#"> contact us</a>
+                                            <a class=" btn btn-primary" href="#"> free quote</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- carousel-item 2 -->
+                <div class="carousel-item" data-bs-interval="2000">
+                    <div class="main2 main">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="content_wrap">
+                                        <h4>general contracting</h4>
+                                        <h1>Build everythinh <br> you needs</h1>
+                                        <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sed, asperiores
+                                            suscipit rem soluta recusandae deleniti omnis? Quos voluptatibus dicta odit.
+                                        </p>
+                                        <div class="btn-group-lg">
+                                            <a class="btn btn-primary" href="#"> contact us</a>
+                                            <a class="btn btn-primary" href="#"> free quote</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev">
+                <i class="bi bi-arrow-left-square"></i>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next"><i class="bi bi-arrow-right-square"></i></span>
+            </button>
+
+        </div>
+    </div>
+
+    <!-- service section -->
+
+    <div class="service_section section_bg section_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4  my-4">
+                    <div class="p-4 content_wraper text-center card">
+                        <img src="./image/a01.png" alt="">
+                        <h3>CONSULTANT & PREPARATION</h3>
+                        <p>
+                            Mauris mattis auctor tellus imperdiet eu ut imperdiet tellus, imperdiet ut Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href="#">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4  my-4">
+                    <div class="p-4 content_wraper text-center card">
+                        <img src="./image/a02.png" alt="">
+                        <h3>CONSULTANT & PREPARATION</h3>
+                        <p>
+                            Mauris mattis auctor tellus imperdiet eu ut imperdiet tellus, imperdiet ut Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href="#">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-4  my-4">
+                    <div class="p-4 content_wraper text-center card">
+                        <img src="./image/a03.png" alt="">
+                        <h3>CONSULTANT & PREPARATION</h3>
+                        <p>
+                            Mauris mattis auctor tellus imperdiet eu ut imperdiet tellus, imperdiet ut Lorem ipsum dolor
+                            sit amet consectetur adipisicing elit.
+                        </p>
+                        <a href="#">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- sticky bg -->
+    <div class="divv"></div>
+    <!------------------- about section------------ -->
+    <div class="about_section section_bg section_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 my-5">
+                    <div class="content_wraper">
+                        <h3>ABOUT US !</h3>
+                        <h1>WE BELIEVE IN THE POWER OF GREAT IDEAS.</h1>
+                        <ul>
+                            <li><i class="bi bi-check2-circle"></i>Quisque Placereat Mnetur Fermnatu nussey</li>
+                            <li><i class="bi bi-check2-circle"></i>Noterjon PlLabore ar Rerom ipsum</li>
+                            <li><i class="bi bi-check2-circle"></i>Quisque Placereat Mnetur Fermnatu nussey</li>
+                        </ul>
+                        <div class="btn-group">
+                            <a href="#" class="btn px-4 btn-primary">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 my-5">
+                    <img class="img-fluid" src="./image/about-bg.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- prising section -->
+    <div class="prising_section section_padding">
+        <div class="container">
+            <div class="row">
+                <div class="section_title">
+                    <h2>PRICE PLAN</h2>
+                    <p>
+                        Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet Phasellus tellus tellus,
+                        imperdiet ut imperdiet eu
+
+                    </p>
+                    <div></div>
+                </div>
+            </div>
+            <div class="row my-5 py-5">
+                <div class="col-lg-4  col-md-12 my-4">
+                    <div class="card shadow">
+                        <h3>START</h3>
+                        <h1>$50 <sub>/m</sub></h1>
+                        <br>
+                        <ul>
+                            <li><i class="bi bi-check2"></i>Build with advance business </li>
+                            <li><i class="bi bi-check2"></i>Customizing to builder </li>
+                            <li><i class="bi bi-check2"></i>Best agency market </li>
+                            <li><i class="bi bi-check2"></i>Customer Service </li>
+                            <li><i class="bi bi-check2"></i>Up to 1000 Worker </li>
+                            <li><i class="bi bi-check2"></i>Unlimited Project </li>
+                            <li><i class="bi bi-check2"></i>Build with longer terms </li>
+                        </ul>
+
+                        <a href="#" class="btn btn-primary">GET STARTED</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 my-4">
+                    <div class="card shadow-lg">
+                        <h3>START</h3>
+                        <h1>$300 <sub>/6m</sub></h1>
+                        <br>
+                        <ul>
+                            <li><i class="bi bi-check2"></i>Build with advance business </li>
+                            <li><i class="bi bi-check2"></i>Customizing to builder </li>
+                            <li><i class="bi bi-check2"></i>Best agency market </li>
+                            <li><i class="bi bi-check2"></i>Customer Service </li>
+                            <li><i class="bi bi-check2"></i>Up to 1000 Worker </li>
+                            <li><i class="bi bi-check2"></i>Unlimited Project </li>
+                            <li><i class="bi bi-check2"></i>Build with longer terms </li>
+                        </ul>
+
+                        <a href="#" class="btn btn-primary">GET STARTED</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 my-4">
+                    <div class="card shadow">
+                        <h3>START</h3>
+                        <h1>$600 <sub>/y</sub></h1>
+                        <br>
+                        <ul>
+                            <li><i class="bi bi-check2"></i>Build with advance business </li>
+                            <li><i class="bi bi-check2"></i>Customizing to builder </li>
+                            <li><i class="bi bi-check2"></i>Best agency market </li>
+                            <li><i class="bi bi-check2"></i>Customer Service </li>
+                            <li><i class="bi bi-check2"></i>Up to 1000 Worker </li>
+                            <li><i class="bi bi-check2"></i>Unlimited Project </li>
+                            <li><i class="bi bi-check2"></i>Build with longer terms </li>
+                        </ul>
+
+                        <a href="#" class="btn btn-primary">GET STARTED</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- project view -->
+    <div class="project_view_section">
+        <div class="container">
+            <div class="row">
+                <div class="section_title">
+                    <h2>MORE FROM US</h2>
+                    <p>
+                        Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet Phasellus tellus tellus,
+                        imperdiet ut imperdiet eu
+                    </p>
+                    <div></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="content_wraper img-thumbnail shadow-sm">
+                        <div class="bg">
+                            <img src="./image/service-item1.jpg" alt="">
+                        </div>
+                        <div class="px-2 py-4">
+                            <h3 class="py-3">PROJECT DEADLINE</h3>
+                            <p>
+                                Ut et congue augue. Maecenas fermentum vel ante a aliquam. Etiam viverra maximus
+                            </p>
+                            <a href="#">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="content_wraper img-thumbnail shadow-sm">
+                        <div class="bg">
+                            <img src="./image/service-item2.jpg" alt="">
+                        </div>
+                        <div class="px-2 py-4">
+                            <h3 class="py-3">PROJECT DEADLINE</h3>
+                            <p>
+                                Ut et congue augue. Maecenas fermentum vel ante a aliquam. Etiam viverra maximus
+                            </p>
+                            <a href="#">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="content_wraper img-thumbnail shadow-sm">
+                        <div class="bg">
+                            <img src="./image/service-item3.jpg" alt="">
+                        </div>
+                        <div class="px-2 py-4">
+                            <h3 class="py-3">PROJECT DEADLINE</h3>
+                            <p>
+                                Ut et congue augue. Maecenas fermentum vel ante a aliquam. Etiam viverra maximus
+                            </p>
+                            <a href="#">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="content_wraper img-thumbnail shadow-sm">
+                        <div class="bg">
+                            <img src="./image/service-item4.jpg" alt="">
+                        </div>
+                        <div class="px-2 py-4">
+                            <h3 class="py-3">PROJECT DEADLINE</h3>
+                            <p>
+                                Ut et congue augue. Maecenas fermentum vel ante a aliquam. Etiam viverra maximus
+                            </p>
+                            <a href="#">Learn More <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- best quality stell -->
+    <div class="best_quality_section">
+        <div class="container">
+            <div class="row py-5 my-5">
+                <div class="section_title text-center">
+                    <h2>BEST QUALITY STELL</h2>
+                    <p class="text-center">
+                        Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet Phasellus tellus tellus,
+                        imperdiet ut imperdiet eu
+                    </p>
+                    <div></div>
+                </div>
+            </div>
+            <div class="row my-5 py-5 ">
+                <div class="col-lg-6">
+                    <div class="p-4 m-2">
+                        <img class="img-fluid img-thumbnail p-2" src="./image/our-project.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 my-4 ">
+                    <h1>WORK WITH OUR TEAMS</h1>
+                    <p class="text-muted ">
+                        Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem.
+                        Donec vehicula luctus nunc in laoreet. Aliquam erat volutpat. Suspendisse vulputate porttitor
+                        condimentum. Proin viverra orci a leo suscipit placerat. Sed feugiat posuere semper. Cras vitae
+                        mi erat
+                        Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a sem.
+                        Donec vehicula luctus nunc in laoreet. Aliquam erat volutpat. Suspendisse vulputate porttitor
+                        condimentum. Proin viverra orci a leo suscipit placerat. Sed feugiat posuere semper. Cras vitae
+                        mi erat
+                    </p>
+                    <ul>
+                        <li><i class="bi bi-check-circle"></i>Building Quality</li>
+                        <li><i class="bi bi-check-circle"></i>Honest Advisors</li>
+                        <li><i class="bi bi-check-circle"></i>24/1week Supports</li>
+                        <li><i class="bi bi-check-circle"></i>Building Quality</li>
+                        <li><i class="bi bi-check-circle"></i>Honest Advisors</li>
+                    </ul>
+                    <a href="#" class="btn btn-primary text-uppercase">get start</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- service 2 section -->
+    <div class="service_two_section">
+        <div class="container">
+            <div class="row py-5 my-5">
+                <div class="section_title">
+                    <h2>BEST QUALITY STELL</h2>
+                    <p>
+                        Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet Phasellus tellus tellus,
+                        imperdiet ut imperdiet eu
+                    </p>
+                    <div></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="wraper my-3 shadow-sm img-thumbnail">
+                        <div class="content">
+                            <img class="mb-4" src="./image/s01.png" alt="">
+                            <h4>ARCHITETURE</h4>
+                            <p class="">Rorem ipsum dolor sit ameto dey teyeryconsecteadipisicing elit, sed do.</p>
+                            <a class="btn" href="#">READ MORE ></a>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="wraper my-3 shadow-sm img-thumbnail">
+                        <div class="content">
+                            <img class="mb-4" src="./image/s02.png" alt="">
+                            <h4>ARCHITETURE</h4>
+                            <p class="">Rorem ipsum dolor sit ameto dey teyeryconsecteadipisicing elit, sed do.</p>
+                            <a class="btn" href="#">READ MORE ></a>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="wraper my-3 shadow-sm img-thumbnail">
+                        <div class="content">
+                            <img class="mb-4" src="./image/s03.png" alt="">
+                            <h4>ARCHITETURE</h4>
+                            <p class="">Rorem ipsum dolor sit ameto dey teyeryconsecteadipisicing elit, sed do.</p>
+                            <a class="btn" href="#">READ MORE ></a>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="wraper my-3 shadow-sm img-thumbnail">
+                        <div class="content">
+                            <img class="mb-4" src="./image/s04.png" alt="">
+                            <h4>ARCHITETURE</h4>
+                            <p class="">Rorem ipsum dolor sit ameto dey teyeryconsecteadipisicing elit, sed do.</p>
+                            <a class="btn" href="#">READ MORE ></a>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="wraper my-3 shadow-sm img-thumbnail">
+                        <div class="content">
+                            <img class="mb-4" src="./image/s05.png" alt="">
+                            <h4>ARCHITETURE</h4>
+                            <p class="">Rorem ipsum dolor sit ameto dey teyeryconsecteadipisicing elit, sed do.</p>
+                            <a class="btn" href="#">READ MORE ></a>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="wraper my-3 shadow-sm img-thumbnail">
+                        <div class="content">
+                            <img class="mb-4" src="./image/s06.png" alt="">
+                            <h4>ARCHITETURE</h4>
+                            <p class="">Rorem ipsum dolor sit ameto dey teyeryconsecteadipisicing elit, sed do.</p>
+                            <a class="btn" href="#">READ MORE ></a>
+                        </div>
+                        <hr>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- EXPLORE THE FEATURES -->
+    <div class="feature_section">
+        <div class="container">
+            <div class="row py-5 my-5">
+                <div class="section_title">
+                    <h2>BEST QUALITY STELL</h2>
+                    <p>
+                        Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet Phasellus tellus tellus,
+                        imperdiet ut imperdiet eu
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-12 my-3">
+                    <div class="content card">
+                        <div class=" overflow-hidden">
+                            <img src="./image/feature-01.jpg" alt="">
+                        </div>
+                        <div class="content_child">
+                            <a href="#"> EXPLORE THE FEATURES</a>
+                            <h4>INTERIOR DESIGN</h4>
+                            <p>
+                                Rorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor
+                                incutey.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 my-3">
+                    <div class="content card">
+                        <div class=" overflow-hidden">
+                            <img src="./image/feature-02.jpg" alt="">
+                        </div>
+                        <div class="content_child">
+                            <a href="#"> EXPLORE THE FEATURES</a>
+                            <h4>INTERIOR DESIGN</h4>
+                            <p>
+                                Rorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor
+                                incutey.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12 my-3">
+                    <div class="content card">
+                        <div class=" overflow-hidden">
+                            <img src="./image/feature-03.jpg" alt="">
+                        </div>
+                        <div class="content_child">
+                            <a href="#"> EXPLORE THE FEATURES</a>
+                            <h4>INTERIOR DESIGN</h4>
+                            <p>
+                                Rorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor
+                                incutey.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- team section  -->
+    <div class="tem_section">
+        <div class="container">
+            <div class="row py-5 my-5">
+                <div class="section_title">
+                    <h2>MEET OUR TEAM</h2>
+                    <p>
+                        Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet Phasellus tellus tellus,
+                        imperdiet ut imperdiet eu
+                    </p>
+                    <div></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 my-3">
+                    <div class="tem_wrap shadow">
+                        <div class="card">
+                            <img src="./image/team-01.jpg" alt="">
+
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-messenger" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            </ul>
+
+                            <div>
+                                <h3>JOHN WELSON</h3>
+                                <P>Civil Engineer</P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="tem_wrap shadow">
+                        <div class="card">
+                            <img src="./image/team-02.jpg" alt="">
+
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-messenger" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            </ul>
+
+                            <div>
+                                <h3>JOHN WELSON</h3>
+                                <P>Civil Engineer</P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="tem_wrap shadow">
+                        <div class="card">
+                            <img src="./image/team-03.jpg" alt="">
+
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-messenger" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            </ul>
+
+                            <div>
+                                <h3>JOHN WELSON</h3>
+                                <P>Civil Engineer</P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 my-3">
+                    <div class="tem_wrap shadow">
+                        <div class="card">
+                            <img src="./image/team-04.jpg" alt="">
+
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-facebook-messenger" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                            </ul>
+
+                            <div>
+                                <h3>JOHN WELSON</h3>
+                                <P>Civil Engineer</P>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- overview section -->
+    <div class="over_view_section">
+        <div class="black_oberley">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3">
+                        <h1>500K</h1>
+                        <p>complete project</p>
+                    </div>
+                    <div class="col-3">
+                        <h1>670K</h1>
+                        <p>Raning Project</p>
+                    </div>
+                    <div class="col-3">
+                        <h1>609K</h1>
+                        <p>Best project</p>
+                    </div>
+                    <div class="col-3">
+                        <h1>308K</h1>
+                        <p>Work Going On</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- duplicate ----------------- -->
+    <!-- project view -->
+    <div class="project_view_section">
+        <div class="container">
+            <div class="row">
+                <div class="section_title">
+                    <h2>OUR LATEST NEWS</h2>
+                    <p>
+                        Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet Phasellus tellus tellus,
+                        imperdiet ut imperdiet eu
+                    </p>
+                    <!-- <hr> -->
+                    <div></div>
+                </div>
+            </div>
+            <div class="row mb-5 pb-5">
+                <div class="col-lg-4">
+                    <div class="content_wraper  img-thumbnail shadow-sm">
+                        <div class="bg">
+                            <img src="./image/blog-grid-1.jpg" alt="">
+                        </div>
+                        <div class="comment">
+                            <span class="text-muted">11 Sep, 2021
+                                <hr> <b class="text-dark-50">Comments (0)</b></span>
+                        </div>
+                        <div class="px-2 ">
+                            <h3 class="">WE WORK HARD TO BUILD</h3>
+                            <p>
+                                Aliquam erat volutpat. Suspendisse Suspen vulput port condimentum. vulput porttitor
+                                condimentum.
+                            </p>
+                            <a class="mb-3 d-block" href="#">Read More <i class="fa fa-arrow-right"
+                                    aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="content_wraper last_margin  shadow-sm">
+                        <div class="bg">
+                            <img src="./image/blog-grid-1.jpg" alt="">
+                        </div>
+                        <div class="comment">
+                            <span class="text-muted">11 Sep, 2021
+                                <hr> <b class="text-dark-50">Comments (0)</b></span>
+                        </div>
+                        <div class="px-2 ">
+                            <h3 class="">WE WORK HARD TO BUILD</h3>
+                            <p>
+                                Aliquam erat volutpat. Suspendisse Suspen vulput port condimentum. vulput porttitor
+                                condimentum.
+                            </p>
+                            <a class="mb-3 d-block" href="#">Read More <i class="fa fa-arrow-right"
+                                    aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="content_wraper  shadow-sm">
+                        <div class="bg">
+                            <img src="./image/blog-grid-1.jpg" alt="">
+                        </div>
+                        <div class="comment">
+                            <span class="text-muted">11 Sep, 2021
+                                <hr> <b class="text-dark-50">Comments (0)</b></span>
+                        </div>
+                        <div class="px-2 ">
+                            <h3 class="">WE WORK HARD TO BUILD</h3>
+                            <p>
+                                Aliquam erat volutpat. Suspendisse Suspen vulput port condimentum. vulput porttitor
+                                condimentum.
+                            </p>
+                            <a class="mb-3 d-block" href="#">Read More <i class="fa fa-arrow-right"
+                                    aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contuct section -->
+    <div class="contauct_section">
+        <div class="container">
+            <div class="contant_wraper card">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <h3>SUBSCRIBE NOW</h3>
+                        <div class="input-group">
+                            <input type="email" name="" class="form-control" placeholder="Enter Your Email" id="">
+                            <button type="submit" class="input-group-text">Submit</button>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3> CONTACTS NOW</h3>
+                        <div class="phone">
+                            <p>Call Us : +(98) 888 7777</p>
+                            <p> Email Us : sample-email@example.com</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <h3>FOLLOW US</h3>
+                        <div class="sosial">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer section -->
+    <div class="footer_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-12 my-3">
+                    <div class="pe-2">
+                        <h3>about us</h3>
+                        <p>
+                            Mauris mattis auctor cursus. Phasellus tellus tellus, imperdiet ut imperdiet eu, iaculis a
+                            sem. Donec vehicula luctus nunc in laoreet.
+                        </p>
+                        <div class="sosial">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 my-3">
+                    <div class="contact_wrap">
+                        <h3>CONTACT US</h3>
+                        <ul>
+                            <li><i class="fa fa-home" aria-hidden="true"></i>Dhaka, Bangladesh</li>
+
+                            <li>
+                                <p>
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                                </p>
+                                <p>
+                                    zahirulislam.iv@gmail.com <br> zahirulislam66@gmail.com
+                                </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <i class="bi bi-telephone-forward-fill"></i>
+                                </p>
+                                <p>
+                                    01775425643<br>01409597701
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 my-3">
+                    <div class="link">
+                        <h3>USEFULL LINKS</h3>
+                        <ul>
+                            <li><i class="bi bi-link-45deg"></i><a href="#">home</a> </i></li>
+                            <li><i class="bi bi-link-45deg"></i><a href="#">page</a> </i></li>
+                            <li><i class="bi bi-link-45deg"></i><a href="#">service</a> </i></li>
+                            <li><i class="bi bi-link-45deg"></i><a href="#">projects</a> </i></li>
+
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12 my-3">
+                    <div class="post">
+                        <h3>RECENT POST</h3>
+                        <div class="all_post">
+                            <div class="single_post">
+                                <div class="left">
+                                    <h4>25 <br> april <br> 2021</h4>
+                                </div>
+                                <div class="right">
+                                    <p>WHERE WE'RE STANDING RIGHT NOW</p>
+                                    <p><i class="bi bi-person-fill"></i>By <a href="#">Admin</a><i
+                                            class="bi bi-chat-right-dots-fill"></i> 28</p>
+                                </div>
+                            </div>
+                            <div class="single_post">
+                                <div class="left">
+                                    <h4>25 <br> april <br> 2021</h4>
+                                </div>
+                                <div class="right">
+                                    <p>WHERE WE'RE STANDING RIGHT NOW</p>
+                                    <p><i class="bi bi-person-fill"></i> By <a href="#"> Admin</a> <i
+                                            class="bi bi-chat-right-dots-fill"></i>28</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>&COPY; all right reserved by <a href="#">Zahhir</a></p>
+        </footer>
+    </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta1/js/bootstrap.bundle.min.js">
+    </script>
+    <!-- <script>
+        document.onkeydown = function (e) {
+            if (event.keyCode == 123) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
+                return false;
+            }
+            if (e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
+                return false;
+            }
+        }
+    </script> -->
+</body>
+
+</html>

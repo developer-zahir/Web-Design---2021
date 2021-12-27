@@ -1,0 +1,29 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?b04fa3b59b9d2a52265760c793f62f84") format("truetype"),
+url("./flaticon.woff?b04fa3b59b9d2a52265760c793f62f84") format("woff"),
+url("./flaticon.woff2?b04fa3b59b9d2a52265760c793f62f84") format("woff2"),
+url("./flaticon.eot?b04fa3b59b9d2a52265760c793f62f84#iefix") format("embedded-opentype"),
+url("./flaticon.svg?b04fa3b59b9d2a52265760c793f62f84#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "android-character-symbol": "\f101",
+);
+
+.flaticon-android-character-symbol:before {
+    content: map-get($flaticon-map, "android-character-symbol");
+}

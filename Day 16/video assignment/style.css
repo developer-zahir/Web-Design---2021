@@ -1,0 +1,498 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.full_website {
+  width: 1300px;
+  margin: auto;
+  border: 1px solid #000;
+}
+
+.full_website .header {
+  background: #2e2d2d;
+  padding: 5px 0;
+}
+
+.full_website .header .left {
+  width: 49%;
+  display: inline-block;
+}
+
+.full_website .header .left h1 {
+  color: white;
+  padding: 0 20px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.full_website .header .right {
+  width: 50%;
+  display: inline-block;
+  text-align: right;
+}
+
+.full_website .header .right ul {
+  padding: 0 20px;
+  margin: 0;
+}
+
+.full_website .header .right ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: -4px;
+}
+
+.full_website .header .right ul li a {
+  display: block;
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 25px;
+  transition: .4s;
+}
+
+.full_website .header .right ul li a:hover {
+  color: #ddd;
+}
+
+.full_website .header .right ul li a span {
+  width: 0%;
+  height: 1px;
+  background: red;
+  display: block;
+  margin: 0;
+  transition: .4s;
+  padding: 0;
+}
+
+.full_website .header .right ul li:hover a span {
+  width: 100%;
+}
+
+.full_website .banner_section {
+  background: url(./img/bg.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.full_website .banner_section .black_overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.342);
+  padding: 100px 60px 0 60px;
+}
+
+.full_website .banner_section .black_overlay .left {
+  width: 49%;
+  display: inline-block;
+}
+
+.full_website .banner_section .black_overlay .left .left_content_wrap {
+  margin-top: 10px;
+}
+
+.full_website .banner_section .black_overlay .left .left_content_wrap h4 {
+  color: #ff8405;
+  margin-top: 90px;
+}
+
+.full_website .banner_section .black_overlay .left .left_content_wrap h1 {
+  color: white;
+}
+
+.full_website .banner_section .black_overlay .left .left_content_wrap span {
+  width: 160px;
+  display: inline-block;
+  height: 3px;
+  background: #ff8405;
+  margin-bottom: 30px;
+}
+
+.full_website .banner_section .black_overlay .left .left_content_wrap p {
+  color: white;
+  font-weight: 400;
+  padding-bottom: 10px;
+}
+
+.full_website .banner_section .black_overlay .left .left_content_wrap a {
+  display: inline-block;
+  padding: 10px 30px;
+  border: 1px solid #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 0 3px;
+  color: white;
+  transition: .4s;
+  font-weight: 600;
+}
+
+.full_website .banner_section .black_overlay .left .left_content_wrap .btn1 {
+  background: #ff8405;
+}
+
+.full_website .banner_section .black_overlay .left .left_content_wrap .btn1:hover {
+  background: #ff82058e;
+}
+
+.full_website .banner_section .black_overlay .left .left_content_wrap .btn2:hover {
+  background: #ffffff;
+  color: #ff8405;
+}
+
+.full_website .banner_section .black_overlay .right {
+  width: 49%;
+  display: inline-block;
+}
+
+.full_website .banner_section .black_overlay .right .img_div {
+  text-align: right;
+  padding: 0 30px;
+}
+
+.full_website .banner_section .black_overlay .right .img_div img {
+  width: 350px;
+}
+
+.full_website .about_section div.div {
+  width: 40%;
+  display: inline-block;
+  overflow: hidden;
+  text-align: right;
+  padding-right: 40px;
+}
+
+.full_website .about_section div.div img {
+  width: 280px;
+  height: 280px;
+  border-radius: 50%;
+  border: 1px solid #ff8405;
+}
+
+.full_website .about_section div.div_2 {
+  width: 49%;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.full_website .about_section div.div_2 h2 {
+  text-transform: capitalize;
+  margin-top: 90px;
+  margin-bottom: 0;
+}
+
+.full_website .about_section div.div_2 span {
+  width: 150px;
+  height: 2px;
+  background: #c3c2c2;
+  display: inline-block;
+}
+
+.full_website .about_section div.div_2 p {
+  text-align: justify;
+}
+
+.full_website .about_section div.div_2 a {
+  display: inline-block;
+  background: #ff8405;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 10px 40px;
+  color: white;
+  transition: .4s;
+  font-weight: 600;
+  border: 1px solid #ff8405;
+}
+
+.full_website .about_section div.div_2 a:hover {
+  background: white;
+  color: #ff8405;
+  border: 1px solid #ff8405;
+}
+
+.full_website .service_section {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.full_website .service_section .title {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 60px 0;
+  border-top: 1px solid rgba(219, 219, 219, 0.63);
+}
+
+.full_website .service_section .title p {
+  padding: 0 180px;
+}
+
+.full_website .service_section .title h1 {
+  margin-bottom: 0;
+}
+
+.full_website .service_section .title span {
+  background: red;
+  width: 110px;
+  height: 2px;
+  display: inline-block;
+}
+
+.full_website .service_section .services .service_box {
+  width: 30%;
+  display: inline-block;
+  box-sizing: border-box;
+  text-align: center;
+  background: #f3f3f3;
+  padding: 40px 20px;
+  margin: 10px;
+  box-shadow: 1px 1px 5px #adadad;
+  border-radius: 2px;
+  transition: .3s;
+}
+
+.full_website .service_section .services .service_box .icon_div i {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.full_website .service_section .services .service_box h3 {
+  text-transform: uppercase;
+  color: #ff8405;
+}
+
+.full_website .service_section .services .service_box span {
+  width: 0%;
+  height: 3px;
+  display: block;
+  background: red;
+  margin-top: 30px;
+  transition: .5s;
+}
+
+.full_website .service_section .services .service_box:hover {
+  box-shadow: 1px 1px 10px #686868;
+}
+
+.full_website .service_section .services .service_box:hover i {
+  color: red;
+}
+
+.full_website .service_section .services .service_box:hover span {
+  width: 100%;
+}
+
+.full_website .team_section {
+  background: #f3f5f670;
+  padding: 100px;
+}
+
+.full_website .team_section .service_section {
+  padding: 0;
+}
+
+.full_website .team_section .service_section .title {
+  border-top: none;
+}
+
+.full_website .team_section .service_section .title p {
+  padding: 0 180px;
+}
+
+.full_website .team_section .service_section .title h1 {
+  border-top: none;
+}
+
+.full_website .team_section .team_container {
+  text-align: center;
+}
+
+.full_website .team_section .team_container .team_box {
+  width: 23%;
+  display: inline-block;
+  margin: 6px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 1px 1px 5px black;
+  border: 1px solid #b2bec3;
+}
+
+.full_website .team_section .team_container .team_box .our-team img {
+  width: 100%;
+}
+
+.full_website .team_section .team_container .team_box .our-team .team-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 0%;
+  background: #e74d3cd0;
+  visibility: hidden;
+  opacity: 0;
+  transition: .6s;
+  overflow: hidden;
+}
+
+.full_website .team_section .team_container .team_box .our-team .team-content .fa-user-circle {
+  margin-top: 120px;
+  font-size: 60px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.full_website .team_section .team_container .team_box .our-team .team-content h3 {
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  padding: 10px 0 0 0;
+}
+
+.full_website .team_section .team_container .team_box .our-team .team-content span {
+  color: white;
+  text-transform: capitalize;
+  font-size: 20px;
+}
+
+.full_website .team_section .team_container .team_box .our-team .team-content ul {
+  margin: 0;
+  padding: 0;
+}
+
+.full_website .team_section .team_container .team_box .our-team .team-content ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px;
+}
+
+.full_website .team_section .team_container .team_box .our-team .team-content ul li a {
+  display: block;
+  font-size: 20px;
+  color: white;
+  background: #3498db;
+  width: 30px;
+  height: 30px;
+  border-radius: 20% 10%;
+  transition: .4s;
+}
+
+.full_website .team_section .team_container .team_box .our-team .team-content ul li a:hover {
+  background: white;
+  color: #3498db;
+}
+
+.full_website .team_section .team_container .team_box .our-team:hover .team-content {
+  width: 100%;
+  height: 100%;
+  visibility: visible;
+  opacity: 1;
+}
+
+.full_website .footer_section .footer_container {
+  padding: 50px 0;
+}
+
+.full_website .footer_section .footer_container .div1 {
+  width: 25%;
+  display: inline-block;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.full_website .footer_section .footer_container .div1 h3 {
+  color: red;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  border-radius: 15px;
+  border-bottom: 1px solid rgba(156, 156, 156, 0.5);
+}
+
+.full_website .footer_section .footer_container .div1 ul {
+  margin: 0;
+  padding: 0;
+  padding-left: 12px;
+}
+
+.full_website .footer_section .footer_container .div1 ul li {
+  list-style: none;
+}
+
+.full_website .footer_section .footer_container .div1 ul li a {
+  display: inline-block;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: black;
+}
+
+.full_website .footer_section .footer_container .div1 ul li a:hover {
+  color: red;
+}
+
+.full_website .footer_section .footer_container .div2 {
+  width: 49%;
+  display: inline-block;
+}
+
+.full_website .footer_section .footer_container .div2 h3 {
+  color: red;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  border-radius: 15px;
+  border-bottom: 1px solid rgba(156, 156, 156, 0.5);
+}
+
+.full_website .footer_section .footer_container .div2 p {
+  padding-left: 12px;
+  text-align: justify;
+  padding-right: 12px;
+}
+
+.full_website .footer_section .social_icon {
+  background: #000;
+  text-align: center;
+  border-top: 1px solid rgba(200, 200, 200, 0.424);
+}
+
+.full_website .footer_section .social_icon ul {
+  margin: 0;
+}
+
+.full_website .footer_section .social_icon ul li {
+  list-style: none;
+  display: inline-block;
+}
+
+.full_website .footer_section .social_icon ul li a {
+  padding: 10px;
+  display: block;
+  color: #ff8405;
+  font-size: 25px;
+  transition: .4s;
+}
+
+.full_website .footer_section .social_icon ul li a:hover {
+  color: green;
+}
+
+.full_website .footer_section .social_icon P {
+  text-align: center;
+  color: white;
+  padding-bottom: 10px;
+}
+
+.full_website .footer_section .social_icon P a {
+  text-decoration: none;
+  color: white;
+}
+
+.full_website .footer_section .social_icon P a:hover {
+  color: green;
+}

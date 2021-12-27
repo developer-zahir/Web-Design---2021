@@ -1,0 +1,281 @@
+body {
+  font-family: "Roboto";
+}
+
+.text-red {
+  color: #e73c3e;
+}
+
+.hover-red:hover {
+  color: #e73c3e;
+}
+
+.text-gray,
+p {
+  color: #606060;
+}
+
+.small-heading {
+  color: #e73c3e;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.main-heading {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.thin-heading {
+  font-size: 38px;
+  font-weight: 400;
+}
+
+P {
+  font-size: 18px;
+}
+
+.bg-gray {
+  background: #f9fafb;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* header */
+.main-header {
+  z-index: 999;
+  background: #fff;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+.main-header .container-fluid,
+.banner-section .container-fluid {
+  max-width: 1480px;
+}
+
+/* main menu */
+.navbar-nav {
+  margin-left: auto !important;
+}
+
+.main-header .nav-link {
+  color: #111 !important;
+  font-size: 16px;
+  font-weight: 500;
+  transition: 0.3s;
+  padding: 17px 0;
+}
+
+.main-header .nav-item .active,
+.main-header .nav-link:hover {
+  color: #e73c3e !important;
+}
+
+/* dropdown menu */
+.main-header .nav-item {
+  position: relative;
+  padding: 0 10px;
+}
+
+.dropdown-menu {
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  top: 150%;
+  display: block;
+  padding: 0 !important;
+  border-color: rgba(204, 199, 199, 0.199);
+}
+
+.main-header .nav-item:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  top: 100%;
+}
+
+.navbar ul ul li {
+  color: #111;
+  transition: 0.4s;
+  font-size: 16px;
+  font-weight: 500;
+  width: 250px;
+  border-bottom: 1px solid rgba(204, 199, 199, 0.199);
+  margin-left: 12px;
+  margin-left: 0;
+}
+
+.navbar ul ul .nav-link {
+  padding: 10px 15px !important;
+}
+
+.navbar ul ul li:hover {
+  background-color: transparent;
+  color: #e73c3e !important;
+  letter-spacing: 1px;
+  background: #f1f1f1af;
+}
+
+/* header end */
+.header-search a {
+  font-size: 20px;
+  color: #111;
+}
+
+.header-call-icon span {
+  font-size: 35px;
+  color: #e83b3e;
+}
+
+.header-call-info span {
+  color: #111;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.header-call-info a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #111;
+  font-size: 16px;
+}
+
+/* default button */
+.default-btn {
+  background: #e83b3e !important;
+  padding: 12px 40px;
+  border-radius: 7px;
+  position: relative;
+  z-index: 3;
+}
+
+.default-btn::after {
+  content: "";
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  bottom: -1px;
+  right: 105%;
+  background: #111;
+  border-radius: 7px;
+  z-index: -1;
+  transition: 0.4s;
+}
+
+.default-btn:hover::after {
+  right: -1px;
+}
+
+/* banner section */
+.banner-section {
+  background: url(img/main-banner2.jpg) no-repeat top center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.banner-content-wrap {
+  height: 90vh;
+  position: relative;
+}
+
+.banner-content {
+  width: 45%;
+}
+
+.banner-content h1 {
+  font-size: 68px;
+  font-weight: 500;
+}
+
+.banner-content P {
+  line-height: 30px;
+}
+
+.banner-social {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-left: 12px;
+}
+
+.banner-social span {
+  padding-right: 10px;
+  display: inline-block;
+  position: relative;
+  margin-right: 58px;
+}
+
+.banner-social span::after {
+  content: "";
+  height: 1px;
+  width: 50px;
+  background: #111;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 100%;
+}
+
+.banner-social ul li a {
+  color: #111;
+  margin: 0 10px;
+  transition: 0.4s;
+}
+
+.banner-social ul li a:hover {
+  color: #e73c3e;
+}
+
+/* partner section */
+.partner-section {
+  border-bottom: 1px solid #ddd;
+}
+
+/* about section */
+.about-image {
+  position: relative;
+}
+
+.about-img-text {
+  position: absolute;
+  right: 86px;
+  bottom: 0;
+  background: url(img/shape.png) no-repeat;
+  background-size: contain;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-img-text h1 {
+  font-size: 70px;
+  margin-top: -25px;
+  margin-left: 10px;
+}
+
+.about-img-text h6 {
+  margin-left: 10px;
+}
+
+.about-content strong {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.about-content ul {
+  font-size: 18px;
+}
+
+.about-content ul li::before {
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #e83b3e;
+  padding-right: 10px;
+}

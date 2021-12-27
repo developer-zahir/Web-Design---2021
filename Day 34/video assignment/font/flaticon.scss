@@ -1,0 +1,89 @@
+$flaticon-font: "flaticon";
+
+@font-face {
+    font-family: $flaticon-font;
+    src: url("./flaticon.ttf?0de6de29f9ac1c00b85d515b64273e39") format("truetype"),
+url("./flaticon.woff?0de6de29f9ac1c00b85d515b64273e39") format("woff"),
+url("./flaticon.woff2?0de6de29f9ac1c00b85d515b64273e39") format("woff2"),
+url("./flaticon.eot?0de6de29f9ac1c00b85d515b64273e39#iefix") format("embedded-opentype"),
+url("./flaticon.svg?0de6de29f9ac1c00b85d515b64273e39#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$flaticon-map: (
+    "agriculture": "\f101",
+    "idea": "\f102",
+    "reliability": "\f103",
+    "telephone": "\f104",
+    "guarantee": "\f105",
+    "user-experience": "\f106",
+    "talent": "\f107",
+    "responsibility": "\f108",
+    "loan": "\f109",
+    "money": "\f10a",
+    "assets": "\f10b",
+    "loan-1": "\f10c",
+    "loan-2": "\f10d",
+    "assets-1": "\f10e",
+    "scholarship": "\f10f",
+    "speed-1": "\f110",
+);
+
+.flaticon-agriculture:before {
+    content: map-get($flaticon-map, "agriculture");
+}
+.flaticon-idea:before {
+    content: map-get($flaticon-map, "idea");
+}
+.flaticon-reliability:before {
+    content: map-get($flaticon-map, "reliability");
+}
+.flaticon-telephone:before {
+    content: map-get($flaticon-map, "telephone");
+}
+.flaticon-guarantee:before {
+    content: map-get($flaticon-map, "guarantee");
+}
+.flaticon-user-experience:before {
+    content: map-get($flaticon-map, "user-experience");
+}
+.flaticon-talent:before {
+    content: map-get($flaticon-map, "talent");
+}
+.flaticon-responsibility:before {
+    content: map-get($flaticon-map, "responsibility");
+}
+.flaticon-loan:before {
+    content: map-get($flaticon-map, "loan");
+}
+.flaticon-money:before {
+    content: map-get($flaticon-map, "money");
+}
+.flaticon-assets:before {
+    content: map-get($flaticon-map, "assets");
+}
+.flaticon-loan-1:before {
+    content: map-get($flaticon-map, "loan-1");
+}
+.flaticon-loan-2:before {
+    content: map-get($flaticon-map, "loan-2");
+}
+.flaticon-assets-1:before {
+    content: map-get($flaticon-map, "assets-1");
+}
+.flaticon-scholarship:before {
+    content: map-get($flaticon-map, "scholarship");
+}
+.flaticon-speed-1:before {
+    content: map-get($flaticon-map, "speed-1");
+}

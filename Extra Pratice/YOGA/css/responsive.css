@@ -1,0 +1,166 @@
+@media screen and (max-width: 1443px) {
+  .footer_bg {
+    background-position-y: 5rem;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .footer_bg .last_part {
+    float: none;
+  }
+  .look_at_our .wrap {
+    text-align: center;
+  }
+  .healthy_life_section .title {
+    margin-bottom: 0;
+  }
+  .healthy_life_section .responsive {
+    margin-top: 11rem;
+  }
+  .discound_section {
+    background-position-y: 203px;
+    background-position-x: -105px;
+  }
+  .jamelar_bg .img_wrap {
+    margin-top: 12em;
+  }
+}
+
+.slicknav_menu {
+  display: none;
+}
+
+@media (max-width: 769px) {
+  .navbar {
+    display: none;
+  }
+  #nav {
+    float: none !important;
+  }
+  .slicknav_menu {
+    display: block;
+    margin-top: 5rem;
+  }
+  .slicknav_menu {
+    background: #7e5a851d;
+    padding: 0;
+    border-radius: 3px;
+  }
+  .slicknav_btn {
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: #7e5a85;
+    margin: 0;
+  }
+  .slicknav_nav a:hover {
+    background: #ffffff;
+    color: white;
+  }
+  .slicknav_nav a {
+    text-transform: uppercase;
+  }
+}
+
+@media (max-width: 768px) {
+  .yoga_class .title {
+    background: none;
+  }
+  .hero_bg .notice_bg {
+    display: none;
+  }
+  .discound_section {
+    background-position-y: 203px;
+    background-position-x: -216px;
+  }
+  .discound_section .discount_bg .sumer_class {
+    padding-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 692px) {
+  .hero_bg {
+    height: 44rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .discound_section {
+    background-position-y: 263px;
+    background-position-x: -406px;
+  }
+  .jamelar_bg {
+    padding: 0 0;
+  }
+  .jamelar_bg .left_wrap_two {
+    margin-top: 8rem;
+  }
+  .jamelar_bg .img_wrap {
+    margin-top: 3em;
+  }
+  .yoga_class {
+    text-align: center;
+    padding-bottom: 0rem;
+  }
+  .hero_bg {
+    height: 38rem;
+  }
+}
+
+@media (max-width: 421px) {
+  .yoga_class .title h2 {
+    font-size: 4rem;
+    margin-bottom: 3rem;
+  }
+  .jamelar_bg .left_wrap .title h1 {
+    font-size: 4rem;
+  }
+  .jamelar_bg .left_wrap .mid span {
+    font-size: 2rem;
+  }
+  .jamelar_bg2 .left_wrap .title h1 {
+    font-size: 3rem;
+  }
+  .look_at_our .title h2 {
+    font-size: 3rem;
+  }
+  .look_at_our .title h2 {
+    margin-bottom: -3rem;
+  }
+  .theme_btn {
+    margin-top: 7rem;
+  }
+  .footer_bg h3 {
+    font-size: 1.2rem;
+  }
+  .footer_bg i {
+    width: 4rem;
+    height: 4rem;
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+  .footer_bg .last_part p {
+    font-size: 1.3rem;
+  }
+  .jamelar_bg .left_wrap .title h1 {
+    font-size: 3rem;
+  }
+  .jamelar_bg .left_wrap .mid span {
+    font-size: 1.6rem;
+  }
+  .jamelar_bg .left_wrap .last h1 {
+    font-size: 2rem;
+  }
+  .jamelar_bg2 .left_wrap .mid span {
+    font-size: 1.3rem;
+  }
+  .jamelar_bg2 .left_wrap .last h1 {
+    font-size: 2rem;
+  }
+  .healthy_life_section {
+    padding: 0rem 0;
+  }
+  .jamelar_bg .left_wrap_two .title span {
+    font-size: 3rem;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

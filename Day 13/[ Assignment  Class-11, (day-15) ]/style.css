@@ -1,0 +1,23 @@
+ .full_website {
+     width: 1000px;
+     margin: auto;
+     background: #ddd;
+ }
+
+ .head_section {
+     background: #34495e;
+ }
+
+ .banner_section img {
+     height: 400px;
+ }
+
+ .body_section {
+     padding: 50px 0;
+     background: #0d6efd;
+     text-transform: capitalize;
+ }
+
+ .footer_section {
+     background: #198754;
+ }

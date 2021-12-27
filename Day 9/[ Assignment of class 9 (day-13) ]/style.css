@@ -1,0 +1,103 @@
+body {
+    background: #eeeeee;
+    text-align: center;
+}
+
+
+.hero_section {
+    background: #000;
+}
+
+.hero_section p {
+    color: white;
+    font-size: 25px;
+    font-style: italic;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.hero_section p .sup_one {
+    color: #cd5c5c;
+}
+
+.hero_section p .sup_two {
+    color: #53a1da;
+}
+
+.hero_section h1 {
+    color: white;
+    font-family: 'Yellowtail', cursive;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+/*==================== .about_section h2 =================== */
+.about_section h2 {
+    background: #834646;
+    color: #212529;
+    font-family: 'Yellowtail', cursive;
+    font-size: 70px;
+    font-weight: 500;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.about_section p {
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*=========== .service_section {}=============== */
+
+.service_title {
+    background: #297a48;
+    text-transform: capitalize;
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.service_box h2 {
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+/* ===================footer_section ==================== */
+.footer_section {
+    background: #4f84c4;
+    color: white;
+}
+
+.footer_section h1 {
+    font-family: 'Yellowtail', cursive;
+    font-size: 90px;
+    font-weight: normal;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+
+.footer_section h3 {
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 0;
+}
+
+.footer_section p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+.footer_section .copy_right_section p {
+    background: #000;
+    text-transform: capitalize;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer_section .copy_right_section p a {
+    text-decoration: none;
+    color: #87cefa;
+}

@@ -1,0 +1,116 @@
+@media all and (max-width: 769px) {
+  .banner_section .order_oner {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .banner_section .order_two {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    padding: 60px 0;
+    border-top: 1px solid #8392ff7a;
+  }
+  .counter_section .item {
+    border: 1px solid #ffffff;
+    margin: 10px 0;
+    padding: 20px;
+    -webkit-transition: 0.4s;
+    transition: 0.4s;
+  }
+  .counter_section .item:hover {
+    border-color: #066d5b;
+  }
+}
+
+@media all and (max-width: 1204px) {
+  .section_title {
+    margin-bottom: 30px !important;
+  }
+  .pricing_table .item {
+    margin: 20px 0;
+  }
+}
+
+@media all and (max-width: 992px) {
+  #navbar li {
+    position: relative;
+  }
+  #navbar li:hover ul {
+    display: block !important;
+  }
+  #navbar li ul {
+    display: none !important;
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+  }
+  .pricing_table {
+    padding: 60px;
+  }
+  .counter_section {
+    padding: 73px 0;
+  }
+  .about_section {
+    background: none;
+    padding: 54px !important;
+  }
+  .contact_us_section {
+    padding: 60px 0 0 0;
+  }
+  .contact_us_section .contact_us_title {
+    margin-bottom: 10px;
+  }
+  .contact_us_section .order_oner {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .contact_us_section .order_two {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    padding: 60px 0;
+  }
+  .contact_us_section .right_inner {
+    margin-left: 0;
+  }
+  .contact_us_section .left_inner {
+    margin: 0;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .pricing_table .item {
+    margin: 25px;
+  }
+}
+
+@media all and (max-width: 576px) {
+  html {
+    font-size: 14px;
+  }
+  .banner_section .left_inner_div {
+    padding: 0;
+    padding: 0 30px;
+  }
+  .banner_section .right_div_inner {
+    text-align: center !important;
+  }
+  .about_section {
+    margin-right: 0 !important;
+  }
+  .about_section .left_inner_div {
+    padding: 0;
+  }
+  .pricing_table {
+    padding: 30px 20px;
+  }
+  .team_section {
+    padding: 40px;
+  }
+  .contact_us_section {
+    padding: 30px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

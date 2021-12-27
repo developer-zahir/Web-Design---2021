@@ -1,0 +1,770 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.full_website {
+  width: 1350px;
+  margin: auto;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.full_website .header_section {
+  background: url(./img/unnamed.jpg) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.full_website .header_section .overlay {
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.349);
+  display: block;
+  padding: 0 0 200px 0;
+}
+
+.full_website .header_section .menu {
+  background: #000;
+  padding-bottom: 15px;
+}
+
+.full_website .header_section .menu .left {
+  width: 30%;
+  display: inline-block;
+  position: relative;
+}
+
+.full_website .header_section .menu .left span {
+  display: inline-block;
+  color: red;
+  text-transform: uppercase;
+  margin-top: 10px;
+  padding: 0;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.full_website .header_section .menu .right {
+  width: 60%;
+  display: inline-block;
+}
+
+.full_website .header_section .menu .right ul {
+  padding: 0;
+  margin: 0;
+  padding: 0;
+  transition: .4s;
+}
+
+.full_website .header_section .menu .right ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: -5px;
+  padding: 10px 32px;
+  position: relative;
+  transition: .4s;
+}
+
+.full_website .header_section .menu .right ul li:hover {
+  background: #38a7f2;
+}
+
+.full_website .header_section .menu .right ul li:hover>ul {
+  visibility: visible;
+  transform: scaleY(1);
+  opacity: 1;
+}
+
+.full_website .header_section .menu .right ul li a {
+  display: block;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+}
+
+.full_website .header_section .menu .right ul li a i {
+  display: inline-block;
+}
+
+.full_website .header_section .menu .right ul li ul {
+  position: absolute;
+  width: 170px;
+  background: #000;
+  padding: 0;
+  top: 100%;
+  left: 0;
+  border-top: 4px solid #ffffff;
+  visibility: hidden;
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: top center;
+}
+
+.full_website .header_section .menu .right ul li ul li {
+  display: block;
+  margin-left: 0;
+  padding: 10px 0;
+  border-bottom: 1px solid #706e6e;
+  cursor: pointer;
+}
+
+.full_website .header_section .menu .right ul li ul li ul {
+  position: absolute;
+  top: -4px;
+  left: 100%;
+}
+
+.full_website .header_section .header_content {
+  margin-top: 200px;
+}
+
+.full_website .header_section .header_content h3 {
+  color: white;
+  text-transform: uppercase;
+  padding: 10px;
+  font-family: 'Lobster', cursive;
+  letter-spacing: 6px;
+}
+
+.full_website .header_section .header_content h5 {
+  color: white;
+  font-weight: 400;
+}
+
+.full_website .header_section .header_content p {
+  padding: 0 280px;
+  color: white;
+  font-weight: 300;
+}
+
+.full_website .header_section .header_content span {
+  width: 100px;
+  height: 2px;
+  background: #d4d2d2;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.full_website .header_section .header_content a {
+  display: inline-block;
+  text-transform: uppercase;
+  padding: 10px 25px;
+  border: 1px solid white;
+  border-radius: 3px;
+  text-decoration: none;
+  color: white;
+  margin: 0 8px;
+  transition: .4s;
+}
+
+.full_website .header_section .header_content .btn1 {
+  background: #000;
+}
+
+.full_website .header_section .header_content .btn1:hover {
+  background: rgba(0, 0, 0, 0.329);
+}
+
+.full_website .header_section .header_content .btn2:hover {
+  background: #04479ea8;
+}
+
+.full_website .about_section {
+  padding: 100px 0;
+}
+
+.full_website .about_section .left {
+  width: 49%;
+  display: inline-block;
+  text-align-last: left;
+  padding: 20px;
+}
+
+.full_website .about_section .left span.about_title {
+  color: #5fb759;
+  text-transform: uppercase;
+  font-style: 35px;
+  padding: 20px;
+}
+
+.full_website .about_section .left h2 {
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 28px;
+  padding: 20px;
+}
+
+.full_website .about_section .left li {
+  list-style: none;
+  margin-bottom: 15px;
+}
+
+.full_website .about_section .left li img {
+  margin-right: 5px;
+}
+
+.full_website .about_section .left a {
+  display: inline-block;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: white;
+  background: #5fb759;
+  padding: 10px 35px;
+  margin-left: 25px;
+  border-radius: 30px;
+  transition: .4s;
+}
+
+.full_website .about_section .left a i {
+  visibility: hidden;
+  opacity: 0;
+  transition: .4s;
+}
+
+.full_website .about_section .left a:hover i {
+  visibility: visible;
+  opacity: 1;
+}
+
+.full_website .about_section .left a:hover {
+  letter-spacing: 2px;
+}
+
+.full_website .about_section .left .left {
+  width: 49%;
+  display: inline-block;
+}
+
+.full_website .about_section .left .right {
+  width: 49%;
+  display: inline-block;
+}
+
+.full_website .about_section .right {
+  width: 49%;
+  display: inline-block;
+  padding: 20px;
+  text-align: left;
+}
+
+.full_website .about_section .right h2 {
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 28px;
+  margin-bottom: 14px;
+}
+
+.full_website .about_section .right p {
+  text-align: justify;
+}
+
+.full_website .services_section p.hr {
+  width: 85%;
+  height: 5px;
+  display: block;
+  background: rgba(0, 0, 0, 0.03);
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.full_website .services_section .service_container .service_box {
+  width: 31%;
+  display: inline-block;
+}
+
+.full_website .services_section .service_container .service_box .left {
+  width: 30%;
+  display: inline-block;
+}
+
+.full_website .services_section .service_container .service_box .left img {
+  display: inline-block;
+  margin-bottom: 225px;
+}
+
+.full_website .services_section .service_container .service_box .right {
+  width: 68%;
+  display: inline-block;
+  text-align-last: left;
+}
+
+.full_website .services_section .service_container .service_box .right p {
+  text-align: justify;
+}
+
+.full_website .services_section .service_container .service_box .right a {
+  text-decoration: none;
+  color: black;
+}
+
+.full_website .services_section .service_container .service_box .right a:hover {
+  color: #5fb759;
+}
+
+.full_website .subscribe_section {
+  background: url(./img/unnamed.jpg) center center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.full_website .subscribe_section .inner {
+  padding: 60px 150px;
+  background-image: linear-gradient(to right, rgba(255, 136, 0, 0.692), rgba(0, 255, 191, 0.377));
+}
+
+.full_website .subscribe_section .inner h3 {
+  padding: 20px 0;
+}
+
+.full_website .subscribe_section .inner p {
+  padding: 0 100px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+
+.full_website .subscribe_section .inner .input i {
+  display: block;
+  font-size: 50px;
+  margin-bottom: 18px;
+  color: white;
+}
+
+.full_website .subscribe_section .inner .input input {
+  border: 1px solid white;
+  background: rgba(0, 0, 0, 0);
+  padding: 9px 60px;
+  border-radius: 30px;
+  color: white;
+  width: 70%;
+}
+
+.full_website .subscribe_section .inner .input input::placeholder {
+  color: white;
+  font-weight: 240;
+  text-align: center;
+}
+
+.full_website .subscribe_section .inner .input input:focus {
+  outline: none;
+  background: transparent;
+}
+
+.full_website .subscribe_section .inner .input input:active {
+  background: transparent;
+}
+
+.full_website .subscribe_section .inner .input a {
+  background: #0ba9e7;
+  color: #ffffff;
+  padding: 8px 50px;
+  border-radius: 30px;
+  margin-left: 10px;
+  display: block;
+  transition: .4s;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  width: 25%;
+  margin: 17px auto;
+}
+
+.full_website .subscribe_section .inner .input a:hover {
+  background: #23d95a00;
+  color: #0b91ff;
+  border: 1px solid #ffffff;
+}
+
+.full_website .team_section {
+  padding: 150px 0;
+  text-align: center;
+}
+
+.full_website .team_section div.hr {
+  width: 400px;
+  height: 3px;
+  display: inline-block;
+  background-image: linear-gradient(to right, red, yellow);
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.full_website .team_section h2 {
+  text-transform: capitalize;
+  padding: 5px 0;
+}
+
+.full_website .team_section .team_box {
+  width: 23%;
+  display: inline-block;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid white;
+  outline: #ddd 1px solid;
+  outline-offset: 2px;
+}
+
+.full_website .team_section .team_box:hover .hover_content {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transition: .4s;
+  visibility: visible;
+  opacity: 1;
+}
+
+.full_website .team_section .team_box img {
+  width: 100%;
+}
+
+.full_website .team_section .team_box p {
+  padding: 5px 16px;
+}
+
+.full_website .team_section .team_box .hover_content {
+  position: absolute;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.739), rgba(0, 0, 0, 0.739));
+  width: 100%;
+  height: 0%;
+  top: 100%;
+  color: white;
+  visibility: hidden;
+  opacity: 0;
+  transition: .4s;
+}
+
+.full_website .team_section .team_box .hover_content div {
+  margin-top: 80px;
+}
+
+.full_website .team_section .team_box .hover_content h3 {
+  text-transform: uppercase;
+}
+
+.full_website .team_section .team_box .hover_content h6 {
+  text-transform: uppercase;
+  background: red;
+  padding: 6px;
+}
+
+.full_website .team_section .team_box .hover_content p {
+  font-weight: 300;
+}
+
+.full_website .team_section .team_box .hover_content ul {
+  margin: 0;
+  padding: 0;
+}
+
+.full_website .team_section .team_box .hover_content ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 4px 5px;
+}
+
+.full_website .team_section .team_box .hover_content ul li a {
+  background-image: linear-gradient(to right, #5fb759, #00a2ff);
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 50%;
+  color: white;
+  transition: .4s;
+}
+
+.full_website .team_section .team_box .hover_content ul li a i {
+  line-height: 31px;
+}
+
+.full_website .team_section .team_box .hover_content ul li a:hover {
+  background: white;
+  color: #0f6e93;
+}
+
+.full_website .priceing_table p {
+  padding: 0 150px;
+  margin: 0 100px 50px 100px;
+}
+
+.full_website .priceing_table .main_div .box_container {
+  width: 25%;
+  display: inline-block;
+  margin: 10px;
+}
+
+.full_website .priceing_table .main_div .box_container .box_main {
+  transition: .4s;
+  border: 1px solid #bbbbbb;
+  outline: #888888 solid 1px;
+  outline-offset: 5px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  background: #0776c0;
+  padding: 40px 20px;
+  color: white;
+}
+
+.full_website .priceing_table .main_div .box_container .box_main:hover {
+  background: white;
+  color: black;
+}
+
+.full_website .priceing_table .main_div .box_container .box_main:hover p {
+  background: rgba(190, 190, 190, 0.527);
+}
+
+.full_website .priceing_table .main_div .box_container .box_main p {
+  position: absolute;
+  transition: .4s;
+  width: 100%;
+  height: 100%;
+  background: #269ff0;
+  top: 0;
+  left: 50%;
+  display: block;
+  margin: auto;
+  z-index: -1;
+}
+
+.full_website .priceing_table .main_div .box_container .box_main i {
+  font-size: 40px;
+  color: #ffffff;
+  background: #269ff0;
+  height: 80px;
+  width: 80px;
+  line-height: 80px;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  transition: .4s;
+}
+
+.full_website .priceing_table .main_div .box_container .box_main i:hover {
+  background: #ffffff;
+  color: #269ff0;
+  border: 2px solid #269ff0;
+}
+
+.full_website .priceing_table .main_div .box_container .box_main h3 {
+  padding: 25px 0 10px 0;
+}
+
+.full_website .priceing_table .main_div .box_container .box_main li {
+  list-style: none;
+  font-size: 17px;
+  text-align: center;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.full_website .priceing_table .main_div .box_container .box_main a {
+  display: inline-block;
+  background: #000;
+  padding: 10px 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  margin-top: 35px;
+  position: relative;
+  transition: .4s;
+  overflow: hidden;
+  z-index: 2;
+  border: 1px solid #fff;
+}
+
+.full_website .priceing_table .main_div .box_container .box_main a span {
+  background: red;
+  width: 0%;
+  height: 100%;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  right: 0%;
+  left: 0%;
+  z-index: -2;
+  transition: .4s all ease-in-out;
+  display: block;
+  visibility: hidden;
+}
+
+.full_website .priceing_table .main_div .box_container .box_main a:hover span {
+  visibility: visible;
+  width: 100%;
+}
+
+.full_website .contact_us_section {
+  background: url(./img/demo_910_none-1.png) center center no-repeat;
+  background-size: cover;
+}
+
+.full_website .contact_us_section .inner_section {
+  background: rgba(255, 255, 255, 0.699);
+  padding: 100px 0;
+}
+
+.full_website .contact_us_section .inner_section .left {
+  width: 49%;
+  display: inline-block;
+  text-align-last: left;
+  padding: 30px;
+}
+
+.full_website .contact_us_section .inner_section .left span {
+  text-transform: capitalize;
+  color: #55ba9a;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+
+.full_website .contact_us_section .inner_section .left h2 {
+  text-transform: capitalize;
+  font-size: 25px;
+}
+
+.full_website .contact_us_section .inner_section .left li {
+  list-style: none;
+  width: 49%;
+  padding: 10px 0;
+}
+
+.full_website .contact_us_section .inner_section .left li img {
+  display: inline-block;
+}
+
+.full_website .contact_us_section .inner_section .left li span {
+  display: inline-block;
+}
+
+.full_website .contact_us_section .inner_section .right {
+  width: 49%;
+  display: inline-block;
+  padding: 30px;
+}
+
+.full_website .contact_us_section .inner_section .right .from_wrap input {
+  width: 47.6%;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+}
+
+.full_website .contact_us_section .inner_section .right .from_wrap input:focus {
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.full_website .contact_us_section .inner_section .right .from_wrap input::placeholder {
+  text-transform: capitalize;
+}
+
+.full_website .contact_us_section .inner_section .right .from_wrap input:nth-child(1) {
+  margin-right: 2%;
+}
+
+.full_website .contact_us_section .inner_section .right .from_wrap input:nth-child(2) {
+  margin-left: 2%;
+}
+
+.full_website .contact_us_section .inner_section .right textarea {
+  width: 100%;
+  height: 200px;
+  margin: 20px 0;
+  border: 1px solid #ddd;
+}
+
+.full_website .contact_us_section .inner_section .right textarea:focus {
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+.full_website .contact_us_section .inner_section .right textarea::placeholder {
+  padding: 10px 20px;
+}
+
+.full_website .contact_us_section .inner_section .right .submitbtn {
+  text-align-last: left;
+}
+
+.full_website .contact_us_section .inner_section .right .submitbtn a {
+  display: inline-block;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #55ba9a;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 30px;
+}
+
+.full_website .contact_us_section .inner_section .right .submitbtn a i {
+  transition: .4s;
+}
+
+.full_website .contact_us_section .inner_section .right .submitbtn a:hover i {
+  padding-left: 5px;
+  color: greenyellow;
+}
+
+.full_website .footer_section {
+  background: #10b9cf;
+  padding: 50px;
+}
+
+.full_website .footer_section p {
+  color: white;
+}
+
+.full_website .footer_section p a {
+  text-decoration: none;
+  color: white;
+  transition: .4s;
+}
+
+.full_website .footer_section p a:hover {
+  color: #dde0df;
+}
+
+.full_website .footer_section .left {
+  width: 49%;
+  display: inline-block;
+}
+
+.full_website .footer_section .right {
+  width: 49%;
+  display: inline-block;
+}
+
+.full_website .footer_section .right ul {
+  margin: 0;
+  padding: 0;
+}
+
+.full_website .footer_section .right ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 12px;
+  margin-left: -5px;
+}
+
+.full_website .footer_section .right ul li a {
+  color: white;
+  background: #0997aa;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px 30px;
+  transition: .4s;
+  text-align: center;
+}
+
+.full_website .footer_section .right ul li a:hover {
+  color: #3ea9f2;
+  background: white;
+}
+
+.full_website .footer_section .right ul li a i {
+  line-height: 30px;
+}
